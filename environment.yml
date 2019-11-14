@@ -1,0 +1,7 @@
+name: pyBase
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - pandas
