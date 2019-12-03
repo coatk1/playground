@@ -3,5 +3,18 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python
+  - python=3*
+  - git
+  - hub
+  - jupyter
   - pandas
+  - numpy
+  - scipy
+  - pyopenssl
+  - psycopg2
+  - sqlalchemy
+  - xlrd
+  - xlwt
+  - openpyxl
+  - matplotlib
+  - seaborn
