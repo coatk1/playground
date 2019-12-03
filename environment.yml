@@ -18,3 +18,4 @@ dependencies:
   - openpyxl
   - matplotlib
   - seaborn
+  - scikit-learn
