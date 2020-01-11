@@ -2,6 +2,8 @@
 playground
 ##########
 
+A repo for testing and references
+
 Tools
 #####
 * `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
