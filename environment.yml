@@ -4,7 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3*
-  - git
+  - git=2.14
   - hub
   - jupyter
   - pandas
@@ -20,3 +20,4 @@ dependencies:
   - seaborn
   - scikit-learn
   - requests
+  - openssl
