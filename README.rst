@@ -33,6 +33,11 @@ GitHub
 * `Github Setup <https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>`_
 * `GitHub Commands <https://gist.github.com/hofmannsven/6814451>`_
 
+Jenkins
+-------
+* https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/
+* https://cheatsheet.dennyzhang.com/cheatsheet-jenkins-groovy-a4
+
 Python
 ------
 * https://realpython.com/
