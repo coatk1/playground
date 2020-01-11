@@ -6,6 +6,9 @@ References
 ##########
 * Anaconda Packages: https://anaconda.org/
 * Anaconda Commands: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
-* reStructuredText: https://docs.anaconda.com/restructuredtext/ 
+* reStructuredText docs: https://docs.anaconda.com/restructuredtext/ 
+* reStructuredText docs: https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
+* reStructuredText docs: https://docutils.sourceforge.io/docs/user/rst/quickref.html
+* GitHub: https://gist.github.com/hofmannsven/6814451
 * Python: https://realpython.com/
 
