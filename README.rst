@@ -43,6 +43,10 @@ Python
 * https://realpython.com/
 * https://www.w3schools.com/default.asp
 
+GUI
+------
+* `PySimpleGUI <https://pysimplegui.readthedocs.io/en/latest/>`_
+
 Tableau
 -------
 * `Charts <https://interworks.com/blog/ccapitula/2014/08/04/tableau-essentials-chart-types-text-table>`_
