@@ -43,6 +43,12 @@ Python
 * https://realpython.com/
 * https://www.w3schools.com/default.asp
 
+PEP8
+----
+* `Usage <https://pypi.org/project/autopep8/>`_
+* `Write Code in pep8 <https://realpython.com/python-pep8/>`_
+* `Python Documentation <https://realpython.com/documenting-python-code/>`_
+
 GUI
 ------
 * `PySimpleGUI <https://pysimplegui.readthedocs.io/en/latest/>`_
