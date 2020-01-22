@@ -4,15 +4,36 @@ playground
 
 A repo for testing and references
 
+File Contents
+-------------
 playground
+    cheatsheets
+        | code
+        |
+        | data_processing
+        |
+        | data_science
+        |
+        | data_science_workflow
+        |
+        | large_data
+        |
+        | ml
+        |
+        | tableau
+        |
+        | tools
+        |
+        | visualization
+    gui
+        | pysimple
+    notebooks
+        | datetime
+        |
+        | finance
 
-    | cheatsheets
-    |
-    | gui
-    |
-    | notebooks
 
-.. contents:: Table of Contents
+.. contents:: Link Contents
 
 Tools
 #####
