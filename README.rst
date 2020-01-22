@@ -4,13 +4,13 @@ playground
 
 A repo for testing and references
 
-.. toctree::
-    :maxdepth: 2
-    
-    cheatsheets
-    gui
-    notebooks
-    
+playground
+
+    | cheatsheets
+    |
+    | gui
+    |
+    | notebooks
 
 .. contents:: Table of Contents
 
