@@ -2,9 +2,9 @@
 playground
 ##########
 
-.. contents::
-
 A repo for testing and references
+
+.. contents::
 
 File Contents
 #############
