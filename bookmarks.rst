@@ -2,6 +2,8 @@
 Bookmarks
 #########
 
+.. contents::
+
 
 Info
 ----
