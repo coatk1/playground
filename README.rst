@@ -9,9 +9,7 @@ File Contents
 playground
     cheatsheets
         | code
-        |
         | data_processing
-        |
         | data_science
         |
         | data_science_workflow
