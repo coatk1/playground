@@ -4,6 +4,16 @@ playground
 
 A repo for testing and references
 
+.. toctree::
+    :maxdepth: 2
+    
+    cheatsheets
+    gui
+    notebooks
+    
+
+.. contents:: Table of Contents
+
 Tools
 #####
 * `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
