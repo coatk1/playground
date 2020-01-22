@@ -8,22 +8,32 @@ A repo for testing and references
 
 File Contents
 #############
-playground
-    cheatsheets
-        | code
-        | data_processing
-        | data_science
-        | data_science_workflow
-        | large_data
-        | ml
-        | tableau
-        | tools
-        | visualization
+ 
+playground                           
+    cheatsheets           
+        | **code** <- snippets of code
+        |
+        | **data_processing** <- data wrangling, numpy, pandas, scipy cheatsheets
+        |
+        | **data_science** <- resources of what data science is
+        |
+        | **data_science_workflow** <- resources of data science workflow
+        |
+        | **large_data** <- dask, pyspark cheatsheets
+        |
+        | **ml** <- keras, scikit-learn, spacy cheatsheets as well as decision tree and neural networks
+        |
+        | **tableau** <- tableau cheatsheets
+        |
+        | **tools** <- jenkins, git, conda, jupyter cheatsheets
+        |
+        | **visualization** <- bokeh, matplotlib, seaborn cheatsheets
     gui
-        | pysimple
+        | **pysimple** <- gui code using pysimple
     notebooks
-        | datetime
-        | finance
+        | **datetime**
+        |
+        | **finance**
 
 Tools
 #####
