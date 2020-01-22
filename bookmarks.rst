@@ -2,6 +2,7 @@
 Bookmarks
 #########
 
+
 Info
 ----
 https://insights.stackoverflow.com/survey/
@@ -11,6 +12,7 @@ https://www.bouvet.no/bouvet-deler/roles-in-a-data-science-project
 https://realpython.com/tutorials/data-science/
 
 https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/
+
 
 TutorialsPoint
 --------------
@@ -22,11 +24,19 @@ https://www.tutorialspoint.com/tableau/index.htm
 
 https://www.tutorialspoint.com/apache_nifi/index.htm
 
+
 RealPython
 ----------
 https://realpython.com/python-type-checking/
 
 https://realpython.com/python-testing/
+
+https://realpython.com/run-python-scripts/
+
+https://realpython.com/python3-object-oriented-programming/
+
+https://realpython.com/instance-class-and-static-methods-demystified/
+
 
 Rest API
 --------
@@ -35,6 +45,30 @@ https://realpython.com/api-integration-in-python/
 https://scotch.io/tutorials/getting-started-with-python-requests-get-requests
 
 https://www.pythonforbeginners.com/requests/using-requests-in-python
+
+
+XML/KML
+-------
+http://blog.appliedinformaticsinc.com/how-to-parse-and-convert-xml-to-csv-using-python/
+
+https://www.guru99.com/manipulating-xml-with-python.html
+
+https://www.datacamp.com/community/tutorials/python-xml-elementtree
+
+
+Data Science
+------------
+https://realpython.com/python-data-cleaning-numpy-pandas/
+
+https://towardsdatascience.com/data-wrangling-with-pandas-5b0be151df4e
+
+
+Anaconda Navigator App
+----------------------
+https://docs.anaconda.com/anaconda/navigator/tutorials/nav-app/
+
+https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html
+
 
 Big Data
 --------
@@ -45,6 +79,7 @@ https://www.datacamp.com/community/tutorials/apache-spark-python
 https://www.guru99.com/apache-nifi-tutorial.html
 
 https://www.confluent.io/blog/avro-kafka-data/
+
 
 Data Engineer
 -------------
