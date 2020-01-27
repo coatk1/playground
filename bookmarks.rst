@@ -93,9 +93,9 @@ https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-i-4227c5c4
 
 Draw.io
 -------
-https://about.draw.io/features/training-material/
+https://about.draw.io/getting-started-with-draw-io-for-confluence/
 
-https://about.draw.io/category/tutorial/
+https://about.draw.io/features/training-material/
 
 https://support.draw.io/display/DO/Draw.io+Online+User+Manual
 
