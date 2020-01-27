@@ -91,3 +91,11 @@ https://www.analyticsvidhya.com/blog/2018/11/data-engineer-comprehensive-list-re
 
 https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-i-4227c5c457d7
 
+Draw.io
+-------
+https://about.draw.io/features/training-material/
+
+https://about.draw.io/category/tutorial/
+
+https://support.draw.io/display/DO/Draw.io+Online+User+Manual
+
