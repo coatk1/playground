@@ -99,3 +99,7 @@ https://about.draw.io/features/training-material/
 
 https://support.draw.io/display/DO/Draw.io+Online+User+Manual
 
+Convert RST
+-----------
+https://pandoc.org/
+
