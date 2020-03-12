@@ -20,7 +20,7 @@ dependencies:
   - lxml                    # For parsing XML
   - geojson                 # GeoJson
   - geohash2                # Geohashes
-  - shapley                 # Geos
+  - shapely                 # Geos
   - requests                # Accessing urls
   - matplotlib              # Data visualization
   - seaborn                 # Data visualization
