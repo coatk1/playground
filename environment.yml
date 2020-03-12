@@ -3,23 +3,26 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3*
-  - git=2.14
-  - hub
-  - jupyter
-  - pandas
-  - numpy
-  - scipy
-  - pyopenssl
-  - psycopg2
-  - sqlalchemy
-  - xlrd
-  - xlwt
-  - openpyxl
-  - matplotlib
-  - seaborn
-  - scikit-learn
-  - requests
-  - openssl
-  - autopep8
-  - pysimplegui
+  - python=3.7
+  - git=2.14                # Used to access GitHub
+  - hub                     # Used to access GitHub
+  - jupyter                 # IDE
+  - pandas                  # Data
+  - numpy<2.0               # Number calculations
+  - scipy                   # Scientific calculations
+  - pyopenssl               # Handling certificates in Python
+  - openssl                 # Handling certificates
+  - openpyxl                # Handling certificates?
+  - psycopg2                # Databases
+  - sqlalchemy              # Databases
+  - xlrd                    # To read excel files
+  - xlwt                    # To write to excel files
+  - lxml                    # For parsing XML
+  - requests                # Accessing urls
+  - matplotlib              # Data visualization
+  - seaborn                 # Data visualization
+  - scikit-learn            # Machine Learning
+  - autopep8                # Formatting code
+  - sphinx                  # Building sphinx docs
+  - sphinx_rtd_theme        # Building sphinx docs
+  - pysimplegui             # Graphical User Interface
