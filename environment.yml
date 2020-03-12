@@ -18,6 +18,9 @@ dependencies:
   - xlrd                    # To read excel files
   - xlwt                    # To write to excel files
   - lxml                    # For parsing XML
+  - geojson                 # GeoJson
+  - geohash2                # Geohashes
+  - shapley                 # Geos
   - requests                # Accessing urls
   - matplotlib              # Data visualization
   - seaborn                 # Data visualization
