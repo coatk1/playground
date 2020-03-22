@@ -97,6 +97,11 @@ Jenkins
 * https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/
 * https://cheatsheet.dennyzhang.com/cheatsheet-jenkins-groovy-a4
 
+Circle CI
+---------
+
+* https://circleci.com/
+
 Travis CI
 ---------
 * https://travis-ci.org/
