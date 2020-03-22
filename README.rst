@@ -2,6 +2,15 @@
 playground
 ##########
 
+.. image:: https://img.shields.io/github/issues/coatk1/playground  
+ :target: https://github.com/coatk1/playground/issues
+ 
+.. image:: https://img.shields.io/github/forks/coatk1/playground 
+ :target: https://github.com/coatk1/playground/network
+ 
+.. image:: https://img.shields.io/github/stars/coatk1/playground
+ :target: https://github.com/coatk1/playground/stargazers
+
 A repo for testing and references
 
 .. contents::
