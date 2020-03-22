@@ -97,6 +97,10 @@ Jenkins
 * https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/
 * https://cheatsheet.dennyzhang.com/cheatsheet-jenkins-groovy-a4
 
+Travis CI
+---------
+* https://travis-ci.org/
+
 Command Line
 ------------
 * https://www.digitalcitizen.life/command-prompt-how-use-basic-commands
