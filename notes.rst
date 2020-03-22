@@ -15,10 +15,6 @@ Notes
 
 * Kanban Color Codes
 
-  - high priority
-  - normal priority 
-  - low priortity
-  - bugs
   - testing
   - gui
   - access
