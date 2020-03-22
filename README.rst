@@ -10,6 +10,30 @@ playground
  
 .. image:: https://img.shields.io/github/stars/coatk1/playground
  :target: https://github.com/coatk1/playground/stargazers
+ 
+.. image:: https://img.shields.io/github/commits-since/coatk1/playground/v1.0.0   
+ :target: GitHub commits since latest release (by date) 
+ 
+.. image:: https://img.shields.io/github/languages/count/coatk1/playground   
+ :target: GitHub language count
+ 
+.. image:: https://img.shields.io/github/languages/top/coatk1/playground   
+ :target: GitHub top language
+ 
+.. image:: https://img.shields.io/requires/github/coatk1/playground   
+ :target: Requires.io
+
+.. image:: https://img.shields.io/librariesio/release/coatk1/playground   
+ :target: Libraries.io dependency status for latest release
+
+.. image:: https://img.shields.io/github/repo-size/coatk1/playground   
+ :target: GitHub repo size
+ 
+.. image:: https://img.shields.io/github/issues-pr/coatk1/playground   
+ :target: GitHub pull requests
+ 
+.. image:: https://img.shields.io/github/v/release/coatk1/playground   
+ :target: GitHub release (latest by date) 
 
 A repo for testing and references
 
