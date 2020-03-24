@@ -72,6 +72,23 @@ https://docs.anaconda.com/anaconda/navigator/tutorials/nav-app/
 https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html
 
 
+GitHub Labels
+-------------
+https://medium.com/@dave_lunny/sane-github-labels-c5d2e6004b63
+
+https://github.com/Relequestual/sensible-github-labels
+
+https://github.com/yoshuawuyts/github-standard-labels
+
+https://github.com/dotnet/roslyn/wiki/Labels-used-for-issues
+
+https://github.com/dotnet/roslyn/wiki/Labels-used-for-issues
+
+https://shields.io/
+
+https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md
+
+
 Big Data
 --------
 https://medium.com/@rrfd/your-first-map-reduce-using-hadoop-with-python-and-osx-ca3b6f3dfe78
@@ -91,6 +108,7 @@ https://www.analyticsvidhya.com/blog/2018/11/data-engineer-comprehensive-list-re
 
 https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-i-4227c5c457d7
 
+
 Draw.io
 -------
 https://about.draw.io/getting-started-with-draw-io-for-confluence/
@@ -98,6 +116,7 @@ https://about.draw.io/getting-started-with-draw-io-for-confluence/
 https://about.draw.io/features/training-material/
 
 https://support.draw.io/display/DO/Draw.io+Online+User+Manual
+
 
 Convert RST
 -----------
