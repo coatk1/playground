@@ -21,6 +21,7 @@ dependencies:
   - geojson                 # GeoJson
   - geohash2                # Geohashes
   - shapely                 # Geos
+  - simplekml               # Writing KML files
   - requests                # Accessing urls
   - matplotlib              # Data visualization
   - seaborn                 # Data visualization
