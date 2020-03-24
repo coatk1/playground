@@ -4,6 +4,21 @@ Bookmarks
 
 .. contents::
 
+Code
+----
+
+https://www.hackerrank.com/
+
+https://leetcode.com/
+
+https://www.datacamp.com/
+
+https://www.codingame.com/start
+
+https://www.codecademy.com/login
+
+https://www.freecodecamp.org/learn/
+
 
 Info
 ----
