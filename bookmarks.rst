@@ -73,6 +73,19 @@ https://www.guru99.com/manipulating-xml-with-python.html
 https://www.datacamp.com/community/tutorials/python-xml-elementtree
 
 
+PyTest
+------
+https://docs.pytest.org/en/2.7.3/plugins.html?highlight=re
+
+https://blog.testlodge.com/tdd-vs-bdd/
+
+https://docs.pytest.org/en/latest/example/simple.html
+
+https://www.tutorialspoint.com/pytest/pytest_conftest_py.htm
+
+https://gist.github.com/peterhurford/09f7dcda0ab04b95c026c60fa49c2a68
+
+
 Data Science
 ------------
 https://realpython.com/python-data-cleaning-numpy-pandas/
