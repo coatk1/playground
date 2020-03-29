@@ -4,7 +4,7 @@
 
 #	def __init__(self, file):
 #		super().__init__(file)
-	
+# Keep as module
 def check(file):
 	if file.endswith('csv'):
 		print('file is csv')

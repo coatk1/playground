@@ -3,23 +3,27 @@ import calc
 temp = calc.Calc(2, 3)
 temp.add()
 '''
-
+# Let calc be module instead
 class Calc:
 
-	def __init__(self, x, y):
+	# Constructor
+	def __init__(self, x=None, y=None):
 		self.x = x
 		self.y = y
 
-	def add(self):
-		return self.x + self.y
-	
-	def multiply(self):
-		return self.x * self.y
+	@staticmethod
+	def add(x, y):
+		return x + y
+		
+	@staticmethod
+	def multiply(x, y):
+		return x * y
 		
 class Distance(Calc):
 
 	def __init__(self, x):
 		super().__init__(x, x)
-		
-	def power(self):
-		return self.x ** 2
+	
+	@staticmethod
+	def power(x):
+		return x ** 2

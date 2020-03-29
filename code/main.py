@@ -9,16 +9,18 @@ def main():
 	x = 2
 	y = 3
 
-	temp = g.Calc(x, y)
-	print(temp.add())
-	print(temp.multiply())
+	temp = g.Calc()
+	#assert temp.add(x, y) == 5
+	#print(g.Calc.add())
+	print(temp.add(x, y))
+	print(temp.multiply(x, y))
 	dist = g.Distance(x)
-	print(dist.power())
+	print(dist.power(x))
 	
 	start = 'hello'
 	end = 'world'
 	
-	test = g.wt.Wt(start, end)
+	test = g.Wt(start, end)
 	print(test.convert_to())
 	print(test.convert_from())
 	
