@@ -86,11 +86,20 @@ Python
 * https://realpython.com/
 * https://www.w3schools.com/default.asp
 
+PyTest
+------
+* `TDD <https://en.wikipedia.org/wiki/Test-driven_development>`__
+* https://docs.pytest.org/en/2.7.3/plugins.html
+
 PEP8
 ----
 * `Usage <https://pypi.org/project/autopep8/>`_
 * `Write Code in pep8 <https://realpython.com/python-pep8/>`_
 * `Python Documentation <https://realpython.com/documenting-python-code/>`_
+
+Flake8
+------
+* http://flake8.pycqa.org/en/latest/
 
 GUI
 ------
