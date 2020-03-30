@@ -1,7 +1,9 @@
 name: pyBase
+
 channels:
   - defaults
   - conda-forge
+  
 dependencies:
   - python=3.7
   - git=2.14                # Used to access GitHub
