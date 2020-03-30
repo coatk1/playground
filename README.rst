@@ -34,3 +34,9 @@ playground
     notebooks
         | **datetime**
         | **finance**
+        
+`Tools <https://github.com/coatk1/playground/blob/master/resources/tools.rst>`__
+
+`Python <https://github.com/coatk1/playground/blob/master/resources/python.rst>`__
+
+`Information <https://github.com/coatk1/playground/blob/master/resources/info.rst>`__
