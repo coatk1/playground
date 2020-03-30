@@ -27,6 +27,9 @@ dependencies:
   - seaborn                 # Data visualization
   - scikit-learn            # Machine Learning
   - autopep8                # Formatting code
+  - flake8                  # Check formatting
   - sphinx                  # Building sphinx docs
   - sphinx_rtd_theme        # Building sphinx docs
   - pysimplegui             # Graphical User Interface
+  - pytest                  # Test Python code
+  - bandit                  # Test vulnerabilities in Python code
