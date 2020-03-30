@@ -33,3 +33,4 @@ dependencies:
   - pysimplegui             # Graphical User Interface
   - pytest                  # Test Python code
   - bandit                  # Test vulnerabilities in Python code
+  - setuptools              # Setting up Python package
