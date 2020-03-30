@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+- [ ] I have searched the [issues](https://github.com/coatk1/playground/issues) of this repository and believe that this is not a duplicate.
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
