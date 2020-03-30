@@ -71,6 +71,11 @@ Jenkins
 * https://cheatsheet.dennyzhang.com/cheatsheet-jenkins-groovy-a4
 
 
+Python Package
+==============
+* https://packaging.python.org/guides/distributing-packages-using-setuptools/
+
+
 Tableau
 =======
 * `Charts <https://interworks.com/blog/ccapitula/2014/08/04/tableau-essentials-chart-types-text-table>`_
