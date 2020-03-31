@@ -23,6 +23,7 @@ Practice
 Documentation
 =============
 * https://realpython.com/python-type-checking/
+* https://numpydoc.readthedocs.io/en/latest/format.html
 
 PEP8
 ----
