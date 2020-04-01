@@ -35,5 +35,6 @@ dependencies:
   - sphinx_rtd_theme        # Building sphinx docs
   - pysimplegui             # Graphical User Interface
   - pytest                  # Test Python code
+  - pytest-cov              # Test Python code coverage
   - bandit                  # Test vulnerabilities in Python code
   - setuptools              # Setting up Python package
