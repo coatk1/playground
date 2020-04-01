@@ -1,3 +1,5 @@
 Closes #ISSUE_NUMBER
 
-Request Review @ENTER_MAINTAINER
+- [ ] Test code (i.e. unittest, pytest, etc.)
+- [ ] Flake8 compliant
+- [ ] Request Review @ENTER_MAINTAINER
