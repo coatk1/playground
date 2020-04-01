@@ -31,6 +31,7 @@ dependencies:
   - autopep8                # Formatting code
   - yapf                    # Formatting code
   - flake8                  # Check formatting
+  - pydocstyle              # Check formatting
   - sphinx                  # Building sphinx docs
   - sphinx_rtd_theme        # Building sphinx docs
   - pysimplegui             # Graphical User Interface
