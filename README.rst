@@ -11,7 +11,9 @@ playground
 .. image:: https://img.shields.io/github/repo-size/coatk1/playground   
  :target: GitHub repo size
 
-A repo for testing and references
+A repo for testing and references.
+
+**NOTE: I DO NOT OWN ANY OF THE RESOURCES I REFER. THIS IS MAINLY FOR TESTING AND EDUCATIONAL PURPOSES OF LEARNING CODE AND GITHUB.**
 
 .. contents::
 
