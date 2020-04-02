@@ -37,6 +37,7 @@ Anaconda Navigator App
 
 GitHub
 ======
+* `GitHub Cheat sheet <https://github.com/tiimgreen/github-cheat-sheet>`__
 * `Github Setup <https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>`_
 * `GitHub Commands <https://gist.github.com/hofmannsven/6814451>`_
 * `GitHub Forks <https://gist.github.com/Chaser324/ce0505fbed06b947d962>`_
