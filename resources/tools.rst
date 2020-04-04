@@ -45,6 +45,7 @@ GitHub
 * `Git Tagging <https://git-scm.com/book/en/v2/Git-Basics-Tagging>`_
 * `Git Branching Model <https://nvie.com/posts/a-successful-git-branching-model/>`_
 * `GitHub Community <https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file>`__
+* `GitHub Actions <https://help.github.com/en/actions>`__
 
 GitHub Labels
 -------------
