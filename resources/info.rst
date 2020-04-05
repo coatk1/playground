@@ -4,6 +4,16 @@ Information
 
 .. contents::
 
+Practice
+========
+* `HackerRank <https://www.hackerrank.com/>`__
+* `LeetCode <https://leetcode.com/>`__
+* `DataCamp <https://www.datacamp.com/>`__
+* `CodingGame <https://www.codingame.com/start>`__
+* `Codecademy <https://www.codecademy.com/login>`__
+* `Freecodecamp <https://www.freecodecamp.org/learn/>`__
+
+
 Computer Science
 ================
 * `Big O Cheatsheet 1 <https://www.bigocheatsheet.com/>`_
@@ -13,7 +23,23 @@ Computer Science
 Software Engineering
 ====================
 * https://insights.stackoverflow.com/survey/
+* https://github.com/jwasham/coding-interview-university
 
+Testing
+-------
+* https://en.wikipedia.org/wiki/Software_testing
+
+Approach
+++++++++
+* Black Box: test function or behavior. From end-user perspective.
+* White Box: test code coverage. From developer perspective.
+* Grey Box: test databases, type handling, exception handling, etc.
+
+Method
+++++++
+* Functional
+* Non-Functional
+* Regression: ensure that new feature doesnt break old code.
 
 Data Science
 ============
