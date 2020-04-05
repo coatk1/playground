@@ -10,16 +10,6 @@ Websites
 * https://www.w3schools.com/default.asp
 
 
-Practice
-========
-* `HackerRank <https://www.hackerrank.com/>`__
-* `LeetCode <https://leetcode.com/>`__
-* `DataCamp <https://www.datacamp.com/>`__
-* `CodingGame <https://www.codingame.com/start>`__
-* `Codecademy <https://www.codecademy.com/login>`__
-* `Freecodecamp <https://www.freecodecamp.org/learn/>`__
-
-
 Documentation
 =============
 * https://realpython.com/python-type-checking/
@@ -33,7 +23,7 @@ PEP8
 
 Flake8
 ------
-* `Flake8 http://flake8.pycqa.org/en/latest/>`__
+* `Flake8 <http://flake8.pycqa.org/en/latest/>`__
 
 
 Code Design
