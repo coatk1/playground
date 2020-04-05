@@ -41,12 +41,14 @@ Method
 * https://www.softwaretestinghelp.com/functional-testing-vs-non-functional-testing/
 
 * Functional: test functionality of code
+
   - Unit
   - Integration
   - System
   - Acceptance
   
 * Non-Functional: test performance of code
+
   - Performance
   - Security
   - Usability
