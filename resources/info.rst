@@ -37,8 +37,22 @@ Approach
 
 Method
 ++++++
-* Functional
-* Non-Functional
+* https://www.guru99.com/functional-testing-vs-non-functional-testing.html
+* https://www.softwaretestinghelp.com/functional-testing-vs-non-functional-testing/
+
+* Functional: test functionality of code
+  - Unit
+  - Integration
+  - System
+  - Acceptance
+  
+* Non-Functional: test performance of code
+  - Performance
+  - Security
+  - Usability
+  - Compatability
+  - Stress
+  
 * Regression: ensure that new feature doesnt break old code.
 
 Data Science
