@@ -17,13 +17,13 @@ Documentation
 
 PEP8
 ----
-* `Usage <https://pypi.org/project/autopep8/>`_
-* `Write Code in pep8 <https://realpython.com/python-pep8/>`_
-* `Python Documentation <https://realpython.com/documenting-python-code/>`_
+* https://pypi.org/project/autopep8/
+* https://realpython.com/python-pep8/
+* https://realpython.com/documenting-python-code/
 
 Flake8
 ------
-* `Flake8 <http://flake8.pycqa.org/en/latest/>`__
+* http://flake8.pycqa.org/en/latest/
 
 
 Code Design
@@ -41,13 +41,13 @@ Workflow
 
 Graphical User Interface
 ========================
-* `PySimpleGUI <https://pysimplegui.readthedocs.io/en/latest/>`_
+* PySimpleGUI <https://pysimplegui.readthedocs.io/en/latest/
 
 
 Web Apps
 ========
-* `Flask <https://www.tutorialspoint.com/flask/index.htm>`__
-* `Django <https://www.tutorialspoint.com/django/>`__
+* https://www.tutorialspoint.com/flask/index.htm
+* https://www.tutorialspoint.com/django/
 
 
 Rest API
@@ -66,7 +66,7 @@ XML/KML
 
 PyTest
 ======
-* `PyTest <https://docs.pytest.org/en/2.7.3/plugins.html>`__
+* https://docs.pytest.org/en/2.7.3/plugins.html
 * https://realpython.com/python-testing/
 * https://docs.pytest.org/en/latest/example/simple.html
 * https://www.tutorialspoint.com/pytest/pytest_conftest_py.htm
