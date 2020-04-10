@@ -2,6 +2,9 @@
 playground
 ==========
 
+.. image:: https://github.com/coatk1/playground/workflows/my_workflow/badge.svg
+ :target: my_workflow
+
 .. image:: https://img.shields.io/github/languages/count/coatk1/playground   
  :target: GitHub language count
  
