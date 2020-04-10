@@ -1,0 +1,27 @@
+name: my_workflow
+
+on:
+
+  # Trigger the workflow on push or pull request,
+  # but only for the master branch
+  push:
+    branches:
+      - master
+    #tags: 
+    #  - '*'
+
+  pull_request:
+    branches:
+      - master
+
+# Jobs to run
+jobs:
+
+  build:
+    #runs-on: windows-latest
+    runs-on: ubuntu-latest
+
+    #with:
+    #    repo-token: "${{ secrets.GITHUB_TOKEN }}"
+      
+#  test:
