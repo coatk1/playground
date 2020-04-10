@@ -90,7 +90,7 @@ jobs:
         # pip install pytest
         pip install pytest-cov
         #pytest
-        pytest -v --cov=package playground/python/package/test_code_2.py --cov-report term-missing
+        pytest -v --cov=package python/package/test_code_2.py --cov-report term-missing
         # repo-token: ${{ secrets.GITHUB_TOKEN }}
         # repo-token: "${{ secrets.GITHUB_TOKEN }}"
       
