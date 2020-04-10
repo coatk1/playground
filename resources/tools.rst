@@ -110,6 +110,8 @@ RST and MD
 Conversion
 ----------
 * https://pandoc.org/
+* https://pandoc.org/getting-started.html
+* https://pandoc.org/MANUAL.html
 
 YAML (1.2 is JSON subset)
 -------------------------
