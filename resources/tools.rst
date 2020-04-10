@@ -11,8 +11,6 @@ Downloads
 * `Notepad++ <https://notepad-plus-plus.org/downloads/>`_
 * `Tableau <https://public.tableau.com/en-us/s/>`_
 * `7-Zip <https://www.7-zip.org/>`_
-* `CircleCI <https://circleci.com/>`__ ?
-* `TravisCI <https://travis-ci.org/>`__ ?
 
 
 Command Line
@@ -26,8 +24,8 @@ Windows
 
 Anaconda
 ========
-* `Anaconda Packages <https://anaconda.org/>`_
-* `Anaconda Commands <https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>`_
+* https://anaconda.org/
+* https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
 Anaconda Navigator App
 ----------------------
@@ -76,11 +74,13 @@ Jenkins
 Python Package
 ==============
 * https://packaging.python.org/guides/distributing-packages-using-setuptools/
+* https://packaging.python.org/guides/using-manifest-in/
+* https://python-packaging.readthedocs.io/en/latest/
 
 
 Tableau
 =======
-* `Charts <https://interworks.com/blog/ccapitula/2014/08/04/tableau-essentials-chart-types-text-table>`_
+* https://interworks.com/blog/ccapitula/2014/08/04/tableau-essentials-chart-types-text-table
 * https://www.tutorialspoint.com/tableau/index.htm
 
 
