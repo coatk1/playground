@@ -1,5 +1,6 @@
 name: my_workflow
 
+# Events
 on:
 
   # Trigger the workflow on push or pull request,
@@ -17,11 +18,79 @@ on:
 # Jobs to run
 jobs:
 
+  # Continuous Integration
   build:
+    name: Build and Test
     #runs-on: windows-latest
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
 
-    #with:
-    #    repo-token: "${{ secrets.GITHUB_TOKEN }}"
+    # Configure across different platforms
+    strategy:
+      matrix:
+
+        # Windows and Linux
+        os: [windows-latest, ubuntu-latest]
+
+        # Python versions
+        python-version: [2.7, 3.5, 3.6, 3.7]
+
+    steps:
+    
+    # Using actions/checkout for a copy of test code. 
+    # Referencing actions/checkout repo. If in private repo, must reference action in private repo.
+    # Syntax {owner}/{repo}@{ref}
+    - uses: actions/checkout@v2
+
+    # Set up Python
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    # Check cache 
+    - name: Cache pip
+
+      # For Windows
+      uses: actions/cache@v1
+      if: startsWith(runner.os, 'Windows')
+      with:
+        path: ~\AppData\Local\pip\Cache # This path is specific to Windows
+        # Look to see if there is a cache hit for the corresponding requirements file
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+
+    # Install dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip setuptools wheel
+        pip install -r requirements.txt
+
+    # Build Source Distribution
+    #- name: Build source distribution
+    #  run: python setup.py sdist bdist_wheel
+
+    # Format Code
+    #- name: Format with Black
+    #  run: |
+    #    pip install black
+    #    black . --check
+
+    # Check if Flake8 compliant
+    - name: Lint with flake8
+      run: |
+        pip install flake8
+        flake8 playground/python/package
+    
+    # Test Code with pytest
+    - name: Test with pytest
+      run: |
+        pip install pytest
+        pip install pytest-cov
+        pytest -v --cov=package playground/python/package --cov-report term-missing
+        # repo-token: ${{ secrets.GITHUB_TOKEN }}
+        # repo-token: "${{ secrets.GITHUB_TOKEN }}"
       
-#  test:
+  # Continuous Delivery
+  #upload:
