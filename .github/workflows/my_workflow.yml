@@ -29,7 +29,8 @@ jobs:
       matrix:
 
         # Windows and Linux
-        os: [windows-latest, ubuntu-latest]
+        os: [windows-latest]
+        # ubuntu-latest
 
         # Python versions
         python-version: [2.7, 3.5, 3.6, 3.7]
@@ -86,9 +87,10 @@ jobs:
     # Test Code with pytest
     - name: Test with pytest
       run: |
-        pip install pytest
+        # pip install pytest
         pip install pytest-cov
-        pytest -v --cov=package playground/python/package --cov-report term-missing
+        #pytest
+        pytest -v --cov=package playground/python/package/test_code_2.py --cov-report term-missing
         # repo-token: ${{ secrets.GITHUB_TOKEN }}
         # repo-token: "${{ secrets.GITHUB_TOKEN }}"
       
