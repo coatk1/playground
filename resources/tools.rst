@@ -69,6 +69,8 @@ Jenkins
 -------
 * https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/
 * https://cheatsheet.dennyzhang.com/cheatsheet-jenkins-groovy-a4
+* https://www.guru99.com/jenkins-pipeline-tutorial.html
+* https://www.edureka.co/blog/jenkins-pipeline-tutorial-continuous-delivery
 
 
 Python Package
