@@ -103,6 +103,10 @@ Markdown
 --------
 * https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+RST and MD
+----------
+* https://www.zverovich.net/2016/06/16/rst-vs-markdown.html
+
 Convert RST
 -----------
 * https://pandoc.org/
