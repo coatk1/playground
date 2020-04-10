@@ -41,7 +41,7 @@ Workflow
 
 Graphical User Interface
 ========================
-* PySimpleGUI <https://pysimplegui.readthedocs.io/en/latest/
+* https://pysimplegui.readthedocs.io/en/latest/
 
 
 Web Apps
