@@ -42,6 +42,8 @@ Workflow
 Graphical User Interface
 ========================
 * https://pysimplegui.readthedocs.io/en/latest/
+* https://www.riverbankcomputing.com/static/Docs/PyQt5/index.html
+* https://python-textbok.readthedocs.io/en/1.0/Introduction_to_GUI_Programming.html
 
 
 Web Apps
