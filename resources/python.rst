@@ -57,11 +57,19 @@ Rest API
 * https://www.pythonforbeginners.com/requests/using-requests-in-python
 
 
+File Types
+==========
+* https://www.tutorialspoint.com/python_data_persistence/python_data_persistence_quick_guide.htm
+
 XML/KML
-=======
+-------
 * http://blog.appliedinformaticsinc.com/how-to-parse-and-convert-xml-to-csv-using-python/
 * https://www.guru99.com/manipulating-xml-with-python.html
 * https://www.datacamp.com/community/tutorials/python-xml-elementtree
+
+Pickle
+------
+* https://docs.python.org/3.7/library/pickle.html
 
 
 Databases
@@ -76,6 +84,10 @@ MongoDB
 -------
 * https://api.mongodb.com/python/current/tutorial.html
 * https://www.tutorialspoint.com/python_data_access/python_mongodb_introduction.htm
+
+SQLAlchemy
+----------
+* https://docs.sqlalchemy.org/en/13/orm/tutorial.html
 
 PyTest
 ======
