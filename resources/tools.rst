@@ -136,14 +136,8 @@ Conversion
 * https://pandoc.org/getting-started.html
 * https://pandoc.org/MANUAL.html
 
-YAML (1.2 is JSON subset)
--------------------------
-* https://en.wikipedia.org/wiki/YAML
-* https://www.tutorialspoint.com/yaml/index.htm
-* https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
+YAML (1.2 is JSON superset)
+---------------------------
 * https://yaml.org/
-* https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/
+* https://www.tutorialspoint.com/yaml/index.htm
 
-Pickle
-------
-* https://docs.python.org/3.7/library/pickle.html
