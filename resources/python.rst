@@ -64,6 +64,19 @@ XML/KML
 * https://www.datacamp.com/community/tutorials/python-xml-elementtree
 
 
+Databases
+=========
+
+PostgreSQL
+----------
+* https://www.psycopg.org/docs/
+* https://www.tutorialspoint.com/python_data_access/python_postgresql_introduction.htm
+
+MongoDB
+-------
+* https://api.mongodb.com/python/current/tutorial.html
+* https://www.tutorialspoint.com/python_data_access/python_mongodb_introduction.htm
+
 PyTest
 ======
 * https://docs.pytest.org/en/2.7.3/plugins.html
