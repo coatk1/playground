@@ -14,7 +14,7 @@ dependencies:
   - scipy                   # Scientific calculations
   - pyopenssl               # Handling certificates in Python
   - openssl                 # Handling certificates
-  - openpyxl                # Handling certificates?
+  - openpyxl                # Excel files in Python
   - psycopg2                # Databases
   - sqlalchemy              # Databases
   - xlrd                    # To read excel files
