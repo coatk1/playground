@@ -89,6 +89,17 @@ Python Package
 * https://packaging.python.org/guides/using-manifest-in/
 * https://python-packaging.readthedocs.io/en/latest/
 
+Databases
+=========
+
+PostgreSQL
+----------
+* https://www.postgresqltutorial.com/
+
+MongoDB
+-------
+* https://docs.mongodb.com/manual/
+
 
 Tableau
 =======
