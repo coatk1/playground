@@ -1,10 +1,9 @@
 name: my_workflow
 
-# Events
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
 on:
 
-  # Trigger the workflow on push or pull request,
-  # but only for the master branch
   push:
     branches:
       - master
@@ -15,12 +14,15 @@ on:
     branches:
       - master
 
-# Jobs to run
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
 
   # Continuous Integration
+  # This workflow contains a single job called "build"
   build:
     name: Build and Test
+
+    # The type of runner that the job will run on
     #runs-on: windows-latest
     runs-on: ${{ matrix.os }}
 
@@ -36,6 +38,7 @@ jobs:
         python-version: [3.5, 3.6, 3.7]
         # 2.7
 
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     
     # Using actions/checkout for a copy of test code. 
@@ -83,7 +86,8 @@ jobs:
     - name: Lint with flake8
       run: |
         pip install flake8
-        flake8 playground/python/package/
+        #flake8 playground/python/package/.
+        flake8 playground/python/package/ --count --select=E9,F63,F7,F82 --show-source --statistics
     
     # Test Code with pytest
     - name: Test with pytest
