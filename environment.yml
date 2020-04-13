@@ -39,3 +39,4 @@ dependencies:
   - pytest-cov              # Test Python code coverage
   - bandit                  # Test vulnerabilities in Python code
   - setuptools              # Setting up Python package
+  - line_profiler           # For code profling runtime
