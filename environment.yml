@@ -39,4 +39,5 @@ dependencies:
   - pytest-cov              # Test Python code coverage
   - bandit                  # Test vulnerabilities in Python code
   - setuptools              # Setting up Python package
-  - line_profiler           # For code profling runtime
+  - line_profiler           # For code profiling runtime on cli
+  - memory_profiler         # For code profiling runtime in files
