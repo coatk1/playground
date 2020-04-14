@@ -33,6 +33,11 @@ Anaconda Navigator App
 * https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html
 
 
+GitPod
+======
+* https://gitpod.io/workspaces/
+
+
 GitHub
 ======
 * `GitHub Cheat sheet <https://github.com/tiimgreen/github-cheat-sheet>`__
