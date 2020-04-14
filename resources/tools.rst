@@ -20,7 +20,14 @@ Command Line
 Windows
 -------
 * https://www.digitalcitizen.life/command-prompt-how-use-basic-commands
+* https://www.tutorialspoint.com/batch_script/index.htm
+* https://netseedblog.com/windows/windows-command-line-cheat-sheet-an-introduction-to-batch-scripting/
 
+Linux
+-----
+* https://www.howtogeek.com/261591/how-to-create-and-run-bash-shell-scripts-on-windows-10/
+* https://devhints.io/bash
+* https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
 
 Anaconda
 ========
