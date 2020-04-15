@@ -95,12 +95,6 @@ Jenkins
 * https://www.edureka.co/blog/jenkins-pipeline-tutorial-continuous-delivery
 
 
-Python Package
-==============
-* https://packaging.python.org/guides/distributing-packages-using-setuptools/
-* https://packaging.python.org/guides/using-manifest-in/
-* https://python-packaging.readthedocs.io/en/latest/
-
 Databases
 =========
 
