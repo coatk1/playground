@@ -39,6 +39,15 @@ Workflow
 * https://blog.testlodge.com/tdd-vs-bdd/
 
 
+Python Package
+==============
+* https://python-packaging.readthedocs.io/en/latest/
+* https://packaging.python.org/overview/
+* https://setuptools.readthedocs.io/en/latest/setuptools.html
+* https://pypi.org/classifiers/
+* https://github.com/audreyr/cookiecutter-pypackage
+
+
 Graphical User Interface
 ========================
 * https://pysimplegui.readthedocs.io/en/latest/
