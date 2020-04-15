@@ -45,6 +45,7 @@ Python Package
 * https://packaging.python.org/overview/
 * https://setuptools.readthedocs.io/en/latest/setuptools.html
 * https://pypi.org/classifiers/
+* https://pypi.org/pypi?%3Aaction=list_classifiers
 * https://github.com/audreyr/cookiecutter-pypackage
 
 
