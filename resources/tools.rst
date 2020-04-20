@@ -69,17 +69,11 @@ GitHub Actions
 GitHub Labels
 -------------
 * https://medium.com/@dave_lunny/sane-github-labels-c5d2e6004b63
-
 * https://github.com/Relequestual/sensible-github-labels
-
 * https://github.com/yoshuawuyts/github-standard-labels
-
 * https://github.com/dotnet/roslyn/wiki/Labels-used-for-issues
-
 * https://github.com/dotnet/roslyn/wiki/Labels-used-for-issues
-
 * https://shields.io/
-
 * https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md
 
 
@@ -91,7 +85,6 @@ Jenkins
 * https://www.edureka.co/blog/cheatsheets/jenkins-cheat-sheet/
 * https://cheatsheet.dennyzhang.com/cheatsheet-jenkins-groovy-a4
 * https://jenkins.io/doc/
-* https://www.guru99.com/jenkins-pipeline-tutorial.html
 * https://www.edureka.co/blog/jenkins-pipeline-tutorial-continuous-delivery
 
 
@@ -146,4 +139,3 @@ YAML (1.2 is JSON superset)
 ---------------------------
 * https://yaml.org/
 * https://www.tutorialspoint.com/yaml/index.htm
-
