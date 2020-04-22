@@ -1,4 +1,4 @@
-name: pyBase2
+name: pyBase
 
 channels:
   - defaults
@@ -17,51 +17,59 @@ dependencies:
   - twine                   # Deploying Python package on PYPI
   - line_profiler           # For code profiling runtime on cli
   - memory_profiler         # For code profiling runtime in files
-  
+
   # GitHub Related
   - git=2.14                # Used to access GitHub
   - hub                     # Used to access GitHub
-  
+
   # IDE
   - jupyter                 # IDE
-  
+
   # Data Science
   - pandas                  # Data
   - numpy<2.0               # Number calculations
   - scipy                   # Scientific calculations
-  
+
   # Databases
   - psycopg2                # Databases
   - sqlalchemy              # Databases
-  
+
   # File Types
   - xlrd                    # To read excel files
   - xlwt                    # To write to excel files
   - lxml                    # For parsing XML
   - simplekml               # Writing KML files
-  
+
   # Geospatial
   - geojson                 # GeoJson
   - geohash2                # Geohashes
   - shapely                 # Geos
   - requests                # Accessing urls
-  
+
   # Visualization
   - matplotlib              # Data visualization
   - seaborn                 # Data visualization
-  
+
   # Machine Learning
   - scikit-learn            # Machine Learning
-  
+
   # Code Linters
   - autopep8                # Formatting code
   - yapf                    # Formatting code
   - flake8                  # Check formatting
   - pydocstyle              # Check formatting
-  
+
   # Sphinx Docs
   - sphinx                  # Building sphinx docs
   - sphinx_rtd_theme        # Building sphinx docs
-  
+
   # Graphical User Interface
   - pysimplegui             # Graphical User Interface
+
+  # Web Frameworks
+  - flask                   # Lightweight framework
+  - django                  # Heavy duty framework
+
+  # Anaconda Build
+  # - anaconda-client         # Reaches out to Anaconda cloud
+  # - conda-build             # Build conda package
