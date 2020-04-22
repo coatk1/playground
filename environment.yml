@@ -5,39 +5,63 @@ channels:
   - conda-forge
   
 dependencies:
-  - python=3.7
-  - git=2.14                # Used to access GitHub
-  - hub                     # Used to access GitHub
-  - jupyter                 # IDE
-  - pandas                  # Data
-  - numpy<2.0               # Number calculations
-  - scipy                   # Scientific calculations
+  # Python Related
+  - python=3.7              # Python version 3.7
   - pyopenssl               # Handling certificates in Python
   - openssl                 # Handling certificates
   - openpyxl                # Excel files in Python
+  - pytest-cov              # Test Python code coverage
+  - bandit                  # Test vulnerabilities in Python code
+  - setuptools              # Setting up Python package
+  - wheel                   # Setting up Python package
+  - twine                   # Deploying Python package on PYPI
+  - line_profiler           # For code profiling runtime on cli
+  - memory_profiler         # For code profiling runtime in files
+  
+  # GitHub Related
+  - git=2.14                # Used to access GitHub
+  - hub                     # Used to access GitHub
+  
+  # IDE
+  - jupyter                 # IDE
+  
+  # Data Science
+  - pandas                  # Data
+  - numpy<2.0               # Number calculations
+  - scipy                   # Scientific calculations
+  
+  # Databases
   - psycopg2                # Databases
   - sqlalchemy              # Databases
+  
+  # File Types
   - xlrd                    # To read excel files
   - xlwt                    # To write to excel files
   - lxml                    # For parsing XML
+  - simplekml               # Writing KML files
+  
+  # Geospatial
   - geojson                 # GeoJson
   - geohash2                # Geohashes
   - shapely                 # Geos
-  - simplekml               # Writing KML files
   - requests                # Accessing urls
+  
+  # Visualization
   - matplotlib              # Data visualization
   - seaborn                 # Data visualization
+  
+  # Machine Learning
   - scikit-learn            # Machine Learning
+  
+  # Code Linters
   - autopep8                # Formatting code
   - yapf                    # Formatting code
   - flake8                  # Check formatting
   - pydocstyle              # Check formatting
+  
+  # Sphinx Docs
   - sphinx                  # Building sphinx docs
   - sphinx_rtd_theme        # Building sphinx docs
+  
+  # Graphical User Interface
   - pysimplegui             # Graphical User Interface
-  - pytest                  # Test Python code
-  - pytest-cov              # Test Python code coverage
-  - bandit                  # Test vulnerabilities in Python code
-  - setuptools              # Setting up Python package
-  - line_profiler           # For code profiling runtime on cli
-  - memory_profiler         # For code profiling runtime in files
