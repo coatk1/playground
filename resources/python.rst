@@ -113,7 +113,9 @@ SQLAlchemy
 
 PyTest
 ======
+* https://docs.pytest.org/en/5.4.1/
 * https://docs.pytest.org/en/2.7.3/plugins.html
+* https://pytest-cov.readthedocs.io/en/latest/
 * https://realpython.com/python-testing/
 * https://docs.pytest.org/en/latest/example/simple.html
 * https://www.tutorialspoint.com/pytest/pytest_conftest_py.htm
