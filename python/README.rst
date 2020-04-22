@@ -31,3 +31,10 @@ Test Code
 ::
 
     pytest -v --cov-config=setup.cfg --cov=package --cov-report=term-missing test/
+
+Sphinx
+======
+
+::
+
+    sphinx-build -v source build
