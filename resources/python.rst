@@ -10,10 +10,16 @@ Websites
 * https://www.w3schools.com/default.asp
 
 
+Package Manager
+===============
+* https://pypi.org/
+
+
 Documentation
 =============
 * https://realpython.com/python-type-checking/
 * https://numpydoc.readthedocs.io/en/latest/format.html
+* http://www.pydocstyle.org/en/latest/
 
 PEP8
 ----
