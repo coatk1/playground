@@ -76,20 +76,20 @@ jobs:
     - name: Check PEP8 compliance
       run: |
         pip install flake8
-        flake8 --filename=*.py --ignore=E501,F401 --statistics my_package/
+        flake8 --filename=*.py --ignore=E501,F401 --statistics oboyo/
 
     # Check if PEP257 compliant with pydocstyle.
     # - name: Check PEP257 compliance
       # run: |
         # pip install pydocstyle
-        # pydocstyle --convention=numpy my_package/
+        # pydocstyle --convention=numpy oboyo/
 
     # Test code and converage with pytest.
     - name: Run Unit Tests
       run: |
         # pytest comes with pytest-cov
         pip install pytest-cov
-        pytest --verbose --cov=my_package --cov-report term-missing test_my_package/
+        pytest --verbose --cov=oboyo --cov-report term-missing test_oboyo/
 
     # Build Source Distribution.
     - name: Build source distribution
