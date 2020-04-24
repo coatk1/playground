@@ -68,7 +68,7 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url='https://github.com/coatk1/datetime_gui',
+    url='https://github.com/coatk1/playground',
 
     # This should be your name or the name of the organization which owns the
     # project.
