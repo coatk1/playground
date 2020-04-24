@@ -122,8 +122,8 @@ jobs:
         python-version: [3.7]
     steps:
     - uses: actions/checkout@v2
-    with:
-          persist-credentials: false
+    #with:
+    #      persist-credentials: false
     #- name: Download dist
     #  uses: actions/download-artifact@master
     #  with:
