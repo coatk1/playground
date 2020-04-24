@@ -89,7 +89,7 @@ jobs:
       run: |
         # pytest comes with pytest-cov
         pip install pytest-cov
-        pytest --verbose --cov=package test_my_package/ --cov-report term-missing
+        pytest --verbose --cov=my_package --cov-report term-missing test_my_package/
 
     # Build Source Distribution.
     - name: Build source distribution

@@ -1,8 +1,11 @@
+"""Tests package."""
+
 import sys
 from my_package.calc import Calc, Distance
 
 
 if sys.version_info[0] >= 3:
+    import pytest
 
     def test_add():
         assert Calc().add(2, 3) == 5, 'Should be 5'

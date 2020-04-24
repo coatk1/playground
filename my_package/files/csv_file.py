@@ -1,14 +1,19 @@
-#from files import file
+"""File module."""
 
-#class Csv(file.File):
+# from files import file
 
-#	def __init__(self, file):
-#		super().__init__(file)
+# class Csv(file.File):
+
+# def __init__(self, file):
+# super().__init__(file)
 # Keep as module
+
+
 def check(file):
-	if file.endswith('csv'):
-		print('file is csv')
-	elif file.endswith('xlsx'):
-		print('file is xlsx')
-	else:
-		print('no file')
+
+    if file.endswith('csv'):
+        print('file is csv')
+    elif file.endswith('xlsx'):
+        print('file is xlsx')
+    else:
+        print('no file')
