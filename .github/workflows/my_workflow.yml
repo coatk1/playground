@@ -93,7 +93,7 @@ jobs:
 
     # Build Source Distribution.
     - name: Build source distribution
-      run: python setup.py sdist
+      run: python setup.py sdist bdist_wheel
 
     # Upload files from dist/. Not sure why.
     - name: Upload dist
