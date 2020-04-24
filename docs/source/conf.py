@@ -159,7 +159,7 @@ html_title = 'playground v0.1.0'
 # Information for edit-on-github
 html_context = {
     'display_github': True,
-    'github_host': 'https://github.com',
+    'github_host': 'github.com',
     'github_user': 'coatk1',
     'github_repo': 'playground',
     'github_version': 'master/docs/source/',
