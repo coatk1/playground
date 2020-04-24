@@ -164,12 +164,31 @@ jobs:
         name: sphinx-docs
         path: docs/build/html
 
-    # Upload to PYPI. Need to add GitHub Secret.
-    #- name: Publish package
-    #  uses: pypa/gh-action-pypi-publish@master
+    # Upload to PYPI.
+    - name: Publish package
+      uses: pypa/gh-action-pypi-publish@master
+      with:
+        user: __token__
+        password: ${{ secrets.pypi_password }}
+
+    # Setup Anaconda and Python Version.
+    # setuptools and wheel come with Anaconda.
+    #- name: Set up Anaconda and Python ${{ matrix.python-version }}
+    #  uses: goanpeca/setup-miniconda@v1
     #  with:
-    #    user: __token__
-    #    password: ${{ secrets.GH_PAT }}
+    #      auto-update-conda: true
+    #      python-version: ${{ matrix.python-version }}
+
+    # Install dependencies.
+    #- name: Install dependencies
+    #  run: |
+    #    conda install anaconda-client
+
+    # Upload to Anaconda Cloud. Need to add GitHub Secret.
+    # - name: Upload to Anaconda
+      # run: |
+        # python setup.py sdist
+        # anaconda upload --skip-existing dist/*.tar.gz
 
     # Deploy sphinx docs to GitHub.
     - name: Deploy to gh-pages
