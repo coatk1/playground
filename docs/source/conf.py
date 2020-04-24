@@ -56,12 +56,31 @@ release = '0.1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+
+    # Includes documentation from docstrings
     'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode',
+
+    # Collect doc coverage stats
+    'sphinx.ext.coverage',
+
+    # Allows publishing HTML docs to GitHub
     'sphinx.ext.githubpages',
+
+    # Supports NumPy and Google style docstrings
     'sphinx.ext.napoleon',
-    'sphinx.ext.todo'
+
+    # Support todo items
+    'sphinx.ext.todo',
+
+    # Add links to highlighted source code
+    'sphinx.ext.viewcode',
 ]
+# Test snippets in the documentation
+# 'sphinx.ext.doctest',
+
+# Add Graphviz graphs and include inheritance diagrams
+# 'sphinx.ext.graphviz',
+# 'sphinx.ext.inheritance_diagram',
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -111,8 +130,11 @@ language = None
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
+# a list of builtin themes. https://www.sphinx-doc.org/en/master/usage/theming.html#builtin-themes
 html_theme = 'sphinx_rtd_theme'
+# 'alabaster'
+# 'classic'
+# 'nature'
 
 # Theme options are theme-specific and customize the look and feel of a
 # theme further.  For a list of options available for each theme, see the
@@ -137,10 +159,10 @@ html_title = 'playground v0.1.0'
 # Information for edit-on-github
 html_context = {
     'display_github': True,
-    'github_host': 'https://github.com/coatk1/',
+    'github_host': 'https://github.com',
     'github_user': 'coatk1',
     'github_repo': 'playground',
-    'github_version': 'master/docs/source',
+    'github_version': 'master/docs/source/',
 }
 
 # The name of an image file (relative to this directory) to place at the top
