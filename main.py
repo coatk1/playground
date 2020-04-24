@@ -1,7 +1,7 @@
 # import wt
 # from calc import Calc
 # from files import csv_file
-import geo as g
+import my_package as g
 # from geo.calc import Calc, Distance
 
 

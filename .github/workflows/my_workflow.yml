@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - master
-    #tags: 
+    #tags:
     #  - '*'
 
   pull_request:
@@ -53,7 +53,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 
-    # Check cache 
+    # Check cache
     # - name: Cache pip
 
       # For Windows
@@ -76,31 +76,31 @@ jobs:
     - name: Check PEP8 compliance
       run: |
         pip install flake8
-        flake8 --filename=*.py --ignore=E501,F401 --statistics playground/python/package/
+        flake8 --filename=*.py --ignore=E501,F401 --statistics my_package/
 
     # Check if PEP257 compliant with pydocstyle.
     - name: Check PEP257 compliance
       run: |
         pip install pydocstyle
-        pydocstyle --convention=numpy playground/python/package/
+        pydocstyle --convention=numpy my_package/
 
     # Test code and converage with pytest.
     - name: Run Unit Tests
       run: |
         # pytest comes with pytest-cov
         pip install pytest-cov
-        pytest --verbose --cov=package python/package/geo/test/ --cov-report term-missing
+        pytest --verbose --cov=package test_my_package/ --cov-report term-missing
 
     # Build Source Distribution.
-    # - name: Build source distribution
-    #   run: python setup.py sdist
+    - name: Build source distribution
+      run: python setup.py sdist
 
     # Upload files from dist/. Not sure why.
-    # - name: Upload dist
-      # uses: actions/upload-artifact@master
-      # with:
-        # name: pypi-dist
-        # path: dist
+    - name: Upload dist
+      uses: actions/upload-artifact@master
+      with:
+        name: pypi-dist
+        path: dist
 
     # Build sphinx docs.
     - name: Build docs
@@ -151,11 +151,11 @@ jobs:
       uses: actions/checkout@v2
 
     # Downloads files from dist/. Not sure why.
-    #- name: Download dist
-    #  uses: actions/download-artifact@master
-    #  with:
-    #    name: pypi-dist
-    #    path: dist
+    - name: Download dist
+      uses: actions/download-artifact@master
+      with:
+        name: pypi-dist
+        path: dist
 
     # Download sphinx docs. Haven't tested. Maybe goes under Build and Test?
     - name: Download docs

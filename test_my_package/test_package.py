@@ -1,5 +1,5 @@
 import sys
-from geo.calc import Calc, Distance
+from my_package.calc import Calc, Distance
 
 
 if sys.version_info[0] >= 3:
@@ -17,7 +17,7 @@ if sys.version_info[0] >= 3:
 
 else:
     import unittest
-    
+
     class TestCode(unittest.TestCase):
 
         def test_add(self):

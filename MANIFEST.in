@@ -1,0 +1,4 @@
+include README.rst
+include LICENSE.md
+include versioneer.py
+include my_package/_version.py
