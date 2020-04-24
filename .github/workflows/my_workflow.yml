@@ -79,10 +79,10 @@ jobs:
         flake8 --filename=*.py --ignore=E501,F401 --statistics my_package/
 
     # Check if PEP257 compliant with pydocstyle.
-    - name: Check PEP257 compliance
-      run: |
-        pip install pydocstyle
-        pydocstyle --convention=numpy my_package/
+    # - name: Check PEP257 compliance
+      # run: |
+        # pip install pydocstyle
+        # pydocstyle --convention=numpy my_package/
 
     # Test code and converage with pytest.
     - name: Run Unit Tests
