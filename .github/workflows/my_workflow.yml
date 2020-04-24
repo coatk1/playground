@@ -116,7 +116,7 @@ jobs:
     name: PyPI and gh-pages
     needs: build
     if: github.event_name == 'push'
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.7]
@@ -142,6 +142,6 @@ jobs:
     - name: Deploy to gh-pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        ACCESS_TOKEN: ${{ secrets.GH_TEST }}
+        ACCESS_TOKEN: ${{ secrets.GH_PAT }}
         BRANCH: gh-pages
         FOLDER: docs/build/html
