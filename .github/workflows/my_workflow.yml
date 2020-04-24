@@ -122,6 +122,8 @@ jobs:
         python-version: [3.7]
     steps:
     - uses: actions/checkout@v2
+    with:
+          persist-credentials: false
     #- name: Download dist
     #  uses: actions/download-artifact@master
     #  with:
@@ -140,6 +142,6 @@ jobs:
     - name: Deploy to gh-pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+        ACCESS_TOKEN: ${{ secrets.GH_TEST }}
         BRANCH: gh-pages
         FOLDER: docs/build/html
