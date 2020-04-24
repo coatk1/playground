@@ -40,7 +40,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    
+
     # Using actions/checkout for a copy of test code. 
     # Referencing actions/checkout repo. If in private repo, must reference action in private repo.
     # Syntax {owner}/{repo}@{ref}
@@ -65,7 +65,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pip-
 
-
     # Install dependencies
     - name: Install dependencies
       run: |
@@ -88,7 +87,7 @@ jobs:
         pip install flake8
         #flake8 playground/python/package/.
         flake8 playground/python/package/ --count --select=E9,F63,F7,F82 --show-source --statistics
-    
+
     # Test Code with pytest
     - name: Test with pytest
       run: |
@@ -98,6 +97,49 @@ jobs:
         pytest -v --cov=package python/package/geo/test/ --cov-report term-missing
         # repo-token: ${{ secrets.GITHUB_TOKEN }}
         # repo-token: "${{ secrets.GITHUB_TOKEN }}"
-      
+
+    - name: Build docs
+      run: |
+        pip install sphinx
+        cd docs
+        make html
+        touch build/html/.nojekyll
+
+    - name: Upload docs
+      uses: actions/upload-artifact@master
+      with:
+        name: sphinx-docs
+        path: docs/build/html
+
   # Continuous Delivery
-  #upload:
+  upload:
+    name: PyPI and gh-pages
+    needs: build
+    if: github.event_name == 'push'
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python-version: [3.7]
+    steps:
+    #- uses: actions/checkout@v2
+    #- name: Download dist
+    #  uses: actions/download-artifact@master
+    #  with:
+    #    name: pypi-dist
+    #    path: dist
+    #- name: Publish package
+    #  uses: pypa/gh-action-pypi-publish@master
+    #  with:
+    #    user: __token__
+    #    password: ${{ secrets.pypi_password }}
+    - name: Download docs
+      uses: actions/download-artifact@master
+      with:
+        name: sphinx-docs
+        path: docs/build/html
+    - name: Deploy to gh-pages
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+        BRANCH: gh-pages
+        FOLDER: docs/build/html
