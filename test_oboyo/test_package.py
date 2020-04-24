@@ -1,7 +1,7 @@
 """Tests package."""
 
 import sys
-from my_package.calc import Calc, Distance
+from oboyo.calc import Calc, Distance
 
 
 if sys.version_info[0] >= 3:

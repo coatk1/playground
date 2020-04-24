@@ -20,7 +20,7 @@ import versioneer
 with open('README.rst') as f:
     readme = f.read()
 
-COMMAND_NAME='my_package'
+COMMAND_NAME='oboyo'
 
 setup(
 
@@ -130,7 +130,7 @@ setup(
     # When your source code is in a subdirectory under the project root, e.g.
     # `src/`, it is necessary to specify the `package_dir` argument.
     package_dir={
-        'my_package':'my_package'
+        'oboyo':'oboyo'
     },
 
     # You can just specify package directories manually here if your project is
@@ -143,7 +143,7 @@ setup(
     #   py_modules=["my_module"],
     #
     packages=find_packages('.'),
-    #packages=['my_package'],
+    #packages=['oboyo'],
 
     # Specify which Python versions you support. In contrast to the
     # 'Programming Language' classifiers above, 'pip install' will check this
@@ -181,7 +181,7 @@ setup(
     # executes the function `main` from this package when invoked:
     entry_points={
         'console_scripts': [
-            '{} = my_package.cli:main'.format(COMMAND_NAME)
+            '{} = oboyo.cli:main'.format(COMMAND_NAME)
         ],
     },
 

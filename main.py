@@ -1,7 +1,7 @@
 # import wt
 # from calc import Calc
 # from files import csv_file
-import my_package as g
+import oboyo as g
 # from geo.calc import Calc, Distance
 
 
