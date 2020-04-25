@@ -13,22 +13,21 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel.
 jobs:
 
-  # Publish
-  publish:
+  # Publish to PYPI
+  publish_1:
 
     # Configure across different platforms.
     strategy:
       matrix:
 
         # Linux
-        os: [windows-latest]
+        os: [ubuntu-latest]
 
         # Python versions
         python-version: [3.7]
 
     # The type of runner that the job will run on.
     runs-on: ${{ matrix.os }}
-    #runs-on: [ubuntu-latest]
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
@@ -74,6 +73,29 @@ jobs:
         user: __token__
         password: ${{ secrets.pypi_password }}
         # packages_dir: custom-dir/
+
+  # Publish to Anaconda
+  publish_2:
+
+    # Configure across different platforms.
+    strategy:
+      matrix:
+
+        # Windows
+        os: [windows-latest]
+
+        # Python versions
+        python-version: [3.7]
+
+    # The type of runner that the job will run on.
+    runs-on: ${{ matrix.os }}
+
+    # Steps represent a sequence of tasks that will be executed as part of the job.
+    steps:
+
+    # Using actions/checkout get code from repo.
+    - name: GitHub Checks
+      uses: actions/checkout@v2
 
     # Setup Anaconda and Python Version.
     # setuptools and wheel come with Anaconda.
