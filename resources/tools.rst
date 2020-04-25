@@ -31,13 +31,25 @@ Linux
 
 Anaconda
 ========
+
+Cloud
+-----
 * https://anaconda.org/
+* https://docs.anaconda.com/
+
+Conda
+-----
+* https://docs.conda.io/projects/conda/en/latest/index.html
 * https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
-Anaconda Navigator App
-----------------------
-* https://docs.anaconda.com/anaconda/navigator/tutorials/nav-app/
+Conda-Build
+-----------
+* https://docs.conda.io/projects/conda-build/en/latest/index.html
 * https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html
+
+Navigator
+---------
+* https://docs.anaconda.com/anaconda/navigator/tutorials/nav-app/
 
 
 GitPod
