@@ -5,10 +5,11 @@ name: Publish
 on:
 
   release:
-    - published
-    - created
-    - edited
-    - prereleased
+    type:
+      - published
+      - created
+      - edited
+      - prereleased
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel.
 jobs:
