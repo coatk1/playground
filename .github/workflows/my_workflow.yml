@@ -165,11 +165,11 @@ jobs:
         path: docs/build/html
 
     # Upload to PYPI.
-    - name: Publish package
-      uses: pypa/gh-action-pypi-publish@master
-      with:
-        user: __token__
-        password: ${{ secrets.pypi_password }}
+    #- name: Publish package
+    #  uses: pypa/gh-action-pypi-publish@master
+    #  with:
+    #    user: __token__
+    #    password: ${{ secrets.pypi_password }}
 
     # Setup Anaconda and Python Version.
     # setuptools and wheel come with Anaconda.
@@ -190,12 +190,12 @@ jobs:
         # python setup.py sdist
         # anaconda upload --skip-existing dist/*.tar.gz
 
-    # - name: publish-to-conda
-      # uses: fcakyon/conda-publish-action@v1.3
-      # with:
-        # subdir: 'conda'
-        # anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
-        # platforms: 'win oxs linux'
+    - name: publish-to-conda
+      uses: fcakyon/conda-publish-action@v1.3
+      with:
+        subdir: 'conda'
+        anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
+        platforms: 'win oxs linux'
 
     # Deploy sphinx docs to GitHub.
     - name: Deploy to gh-pages
