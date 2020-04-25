@@ -15,6 +15,7 @@ jobs:
 
   # Publish to PYPI
   publish_1:
+    name: PYPI
 
     # Configure across different platforms.
     strategy:
@@ -76,6 +77,10 @@ jobs:
 
   # Publish to Anaconda
   publish_2:
+    name: Anaconda
+
+    # Needs the build step to pass.
+    #needs: publish_1
 
     # Configure across different platforms.
     strategy:
