@@ -192,11 +192,11 @@ jobs:
     #    platforms: 'win oxs linux'
 
     # Download sphinx docs from GitHub Actions.
-    #- name: Download docs
-    #  uses: actions/download-artifact@master
-    #  with:
-    #    name: sphinx-docs
-    #    path: docs/build/html
+    - name: Download docs
+      uses: actions/download-artifact@master
+      with:
+        name: sphinx-docs
+        path: docs/build/html
 
     # Deploy sphinx docs to GitHub.
     - name: Deploy to gh-pages
