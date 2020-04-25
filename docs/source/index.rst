@@ -7,6 +7,8 @@
 Welcome to playground's documentation!
 ========================================
 
+Test
+
 .. include:: ../../README.rst
 
 .. todolist::
