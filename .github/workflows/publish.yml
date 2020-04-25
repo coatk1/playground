@@ -76,70 +76,64 @@ jobs:
         # packages_dir: custom-dir/
 
     # Publish to Anaconda Cloud.
-    - name: Upload to Anaconda
-      uses: fcakyon/conda-publish-action@v1.3
-      with:
-        subdir: 'dist'
-        anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
-        platforms: 'win oxs linux'
+    #- name: Upload to Anaconda
+    #  uses: fcakyon/conda-publish-action@v1.3
+    #  with:
+    #    subdir: 'dist'
+    #    anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
+    #    platforms: 'win oxs linux'
 
   # Publish to Anaconda
-  #publish_2:
+  publish_2:
   #  name: Anaconda
 
     # Needs the build step to pass.
-    #needs: publish
+    needs: publish
 
     # Configure across different platforms.
-    #strategy:
-      #matrix:
+    strategy:
+      matrix:
 
         # Windows
-        #os: [windows-latest]
+        os: [windows-latest]
 
         # Python versions
-        #python-version: [3.7]
+        python-version: [3.7]
 
     # The type of runner that the job will run on.
-    #runs-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
-    #steps:
+    steps:
 
     # Using actions/checkout get code from repo.
-    #- name: GitHub Checks
-    #  uses: actions/checkout@v2
+    - name: GitHub Checks
+      uses: actions/checkout@v2
 
     # Setup Anaconda and Python Version.
     # setuptools and wheel come with Anaconda.
-    #- name: Set up Anaconda and Python
-    #  uses: goanpeca/setup-miniconda@v1
-    #  with:
-    #      auto-update-conda: true
-    #      python-version: ${{ matrix.python-version }}
+    - name: Set up Anaconda and Python
+      uses: goanpeca/setup-miniconda@v1
+      with:
+          auto-update-conda: true
+          python-version: ${{ matrix.python-version }}
 
     # Install dependencies.
-    #- name: Install dependencies
-    #  run: |
-    #    conda install anaconda-client
+    - name: Install dependencies
+      run: |
+        conda install anaconda-client
 
     # Download Source Distribution from GitHub Actions.
-    # - name: Download dist
-      # uses: actions/download-artifact@master
-      # with:
-        # name: source-dist
-        # path: dist
+    - name: Download dist
+      uses: actions/download-artifact@master
+      with:
+        name: source-dist
+        path: dist
 
     # Publish to Anaconda Cloud. Need to add GitHub Secret.
-    #- name: Upload to Anaconda
-    #  run: |
+    - name: Upload to Anaconda
+      run: |
         #python setup.py sdist
-    #    anaconda upload --skip-existing dist/*.tar.gz
-
-    # Publish to Anaconda Cloud.
-    # - name: Upload to Anaconda
-      # uses: fcakyon/conda-publish-action@v1.3
-      # with:
-        # subdir: 'dist'
-        # anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
-        # platforms: 'win oxs linux'
+        anaconda upload --skip-existing dist/*.tar.gz
+      with:
+        anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
