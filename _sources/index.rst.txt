@@ -7,7 +7,7 @@
 Welcome to playground's documentation!
 ========================================
 
-Test
+Testing
 
 .. include:: ../../README.rst
 
