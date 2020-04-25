@@ -190,6 +190,13 @@ jobs:
         # python setup.py sdist
         # anaconda upload --skip-existing dist/*.tar.gz
 
+    # - name: publish-to-conda
+      # uses: fcakyon/conda-publish-action@v1.3
+      # with:
+        # subdir: 'conda'
+        # anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
+        # platforms: 'win oxs linux'
+
     # Deploy sphinx docs to GitHub.
     - name: Deploy to gh-pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
