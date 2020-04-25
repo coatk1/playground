@@ -96,7 +96,7 @@ jobs:
       run: python setup.py sdist bdist_wheel
 
     # Upload Source Distribution to GitHub Actions.
-    - name: Upload dist
+    - name: Upload source distribution
       uses: actions/upload-artifact@master
       with:
         name: source-dist

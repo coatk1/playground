@@ -35,6 +35,13 @@ jobs:
     - name: GitHub Checks
       uses: actions/checkout@v2
 
+    # Downloads files from GitHub Actions.
+    - name: Download dist
+      uses: actions/download-artifact@master
+      with:
+        name: source-dist
+        path: dist
+
     # Upload to PYPI.
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@master
