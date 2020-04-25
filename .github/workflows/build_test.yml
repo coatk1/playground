@@ -1,14 +1,15 @@
-name: my_workflow
+name: Build and Test
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch.
 on:
 
   push:
-    branches:
-      - master
-    #tags:
-    #  - '*'
+    paths:
+      - 'oboyo/**'
+      - 'test_oboyo/**'
+    #branches:
+    #  - master
 
   pull_request:
     branches:
@@ -18,13 +19,9 @@ on:
 jobs:
 
   # Continuous Integration
-  # This workflow contains a single job called "build" and "upload".
+  # This workflow contains a single job called "build".
   build:
     name: Build and Test
-
-    # The type of runner that the job will run on.
-    #runs-on: windows-latest
-    runs-on: ${{ matrix.os }}
 
     # Configure across different platforms.
     strategy:
@@ -37,6 +34,10 @@ jobs:
         # Python versions
         python-version: [3.5, 3.6, 3.7]
         # 2.7
+
+    # The type of runner that the job will run on.
+    #runs-on: windows-latest
+    runs-on: ${{ matrix.os }}
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
@@ -92,45 +93,45 @@ jobs:
         pytest --verbose --cov=oboyo --cov-report term-missing test_oboyo/
 
     # Build Source Distribution.
-    - name: Build source distribution
-      run: python setup.py sdist bdist_wheel
+    #- name: Build source distribution
+    #  run: python setup.py sdist bdist_wheel
 
     # Upload Source Distribution to GitHub Actions.
-    - name: Upload source distribution
-      uses: actions/upload-artifact@master
-      with:
-        name: source-dist
-        path: dist
+    #- name: Upload source distribution
+    #  uses: actions/upload-artifact@master
+    #  with:
+    #    name: source-dist
+    #    path: dist
 
     # Build sphinx docs.
-    - name: Build docs
-      run: |
-        pip install sphinx sphinx_rtd_theme
-        cd docs
-        make html
-        touch build/html/.nojekyll
+    #- name: Build docs
+    #  run: |
+    #    pip install sphinx sphinx_rtd_theme
+    #    cd docs
+    #    make html
+    #    touch build/html/.nojekyll
 
     # Upload sphinx docs to GitHub Actions.
-    - name: Upload docs
-      uses: actions/upload-artifact@master
-      with:
-        name: sphinx-docs
-        path: docs/build/html
+    #- name: Upload docs
+    #  uses: actions/upload-artifact@master
+    #  with:
+    #    name: sphinx-docs
+    #    path: docs/build/html
 
   # Continuous Delivery
   # This job will deploy the code.
-  upload:
-    name: Deployment
+  #upload:
+    #name: Deployment
 
     # Needs the build step to pass.
-    needs: build
+    #needs: build
 
     # On every push to GitHub.
-    if: github.event_name == 'push'
+    #if: github.event_name == 'push'
 
     # The type of runner that the job will run on.
     #runs-on: ${{ matrix.os }}
-    runs-on: [ubuntu-latest]
+    #runs-on: [ubuntu-latest]
 
     # Configure across different platforms.
     #strategy:
@@ -143,13 +144,13 @@ jobs:
         #python-version: [3.7]
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
-    steps:
+    #steps:
 
     # Using actions/checkout get code from repo.
     # Referencing actions/checkout repo. If in private repo, must reference action in private repo.
     # Syntax {owner}/{repo}@{ref}
-    - name: GitHub Checks
-      uses: actions/checkout@v2
+    #- name: GitHub Checks
+    #  uses: actions/checkout@v2
 
     # Downloads files from GitHub Actions.
     #- name: Download dist
@@ -192,16 +193,16 @@ jobs:
     #    platforms: 'win oxs linux'
 
     # Download sphinx docs from GitHub Actions.
-    - name: Download docs
-      uses: actions/download-artifact@master
-      with:
-        name: sphinx-docs
-        path: docs/build/html
+    #- name: Download docs
+    #  uses: actions/download-artifact@master
+    #  with:
+    #    name: sphinx-docs
+    #    path: docs/build/html
 
     # Deploy sphinx docs to GitHub.
-    - name: Deploy to gh-pages
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        ACCESS_TOKEN: ${{ secrets.GH_PAT }}
-        BRANCH: gh-pages
-        FOLDER: docs/build/html
+    #- name: Deploy to gh-pages
+    #  uses: JamesIves/github-pages-deploy-action@releases/v3
+    #  with:
+    #    ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+    #    BRANCH: gh-pages
+    #    FOLDER: docs/build/html
