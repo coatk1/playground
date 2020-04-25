@@ -15,7 +15,18 @@ jobs:
   publish:
 
     # The type of runner that the job will run on.
-    runs-on: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    #runs-on: [ubuntu-latest]
+
+    # Configure across different platforms.
+    strategy:
+      matrix:
+
+        # Linux
+        os: [ubuntu-latest]
+
+        # Python versions
+        python-version: [3.7]
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
@@ -38,7 +49,7 @@ jobs:
       uses: goanpeca/setup-miniconda@v1
       with:
           auto-update-conda: true
-          #python-version: ${{ matrix.python-version }}
+          python-version: ${{ matrix.python-version }}
 
     # Install dependencies.
     - name: Install dependencies

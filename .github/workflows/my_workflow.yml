@@ -152,11 +152,11 @@ jobs:
       uses: actions/checkout@v2
 
     # Downloads files from GitHub Actions.
-    - name: Download dist
-      uses: actions/download-artifact@master
-      with:
-        name: source-dist
-        path: dist
+    #- name: Download dist
+    #  uses: actions/download-artifact@master
+    #  with:
+    #    name: source-dist
+    #    path: dist
 
     # Upload to PYPI.
     #- name: Publish package
@@ -192,11 +192,11 @@ jobs:
     #    platforms: 'win oxs linux'
 
     # Download sphinx docs from GitHub Actions.
-    - name: Download docs
-      uses: actions/download-artifact@master
-      with:
-        name: sphinx-docs
-        path: docs/build/html
+    #- name: Download docs
+    #  uses: actions/download-artifact@master
+    #  with:
+    #    name: sphinx-docs
+    #    path: docs/build/html
 
     # Deploy sphinx docs to GitHub.
     - name: Deploy to gh-pages
