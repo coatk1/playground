@@ -8,7 +8,7 @@ playground
 .. image:: https://github.com/coatk1/playground/workflows/Publish/badge.svg
  :target: https://github.com/coatk1/playground/actions?query=workflow%3APublish
 
- .. image:: https://github.com/coatk1/playground/workflows/Docs/badge.svg
+.. image:: https://github.com/coatk1/playground/workflows/Docs/badge.svg
  :target: https://github.com/coatk1/playground/actions?query=workflow%3ADocs
 
 .. image:: https://img.shields.io/github/languages/count/coatk1/playground
