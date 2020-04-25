@@ -15,7 +15,7 @@ jobs:
   publish:
 
     # The type of runner that the job will run on.
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest]
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
@@ -24,10 +24,37 @@ jobs:
     - name: GitHub Checks
       uses: actions/checkout@v2
 
-    # Upload to Anaconda Cloud.
-    - name: Upload to Anaconda
-      uses: fcakyon/conda-publish-action@v1.3
+    # Upload to PYPI.
+    - name: Publish package
+      uses: pypa/gh-action-pypi-publish@master
       with:
-        subdir: 'dist'
-        anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
-        platforms: 'win oxs linux'
+        user: __token__
+        password: ${{ secrets.pypi_password }}
+        # packages_dir: custom-dir/
+
+    # Setup Anaconda and Python Version.
+    # setuptools and wheel come with Anaconda.
+    - name: Set up Anaconda and Python
+      uses: goanpeca/setup-miniconda@v1
+      with:
+          auto-update-conda: true
+          #python-version: ${{ matrix.python-version }}
+
+    # Install dependencies.
+    - name: Install dependencies
+      run: |
+        conda install anaconda-client
+
+    # Upload to Anaconda Cloud. Need to add GitHub Secret.
+    - name: Upload to Anaconda
+      run: |
+        #python setup.py sdist
+        anaconda upload --skip-existing dist/*.tar.gz
+
+    # Upload to Anaconda Cloud.
+    #- name: Upload to Anaconda
+    #  uses: fcakyon/conda-publish-action@v1.3
+    #  with:
+    #    subdir: 'dist'
+    #    anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
+    #    platforms: 'win oxs linux'

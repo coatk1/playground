@@ -95,11 +95,11 @@ jobs:
     - name: Build source distribution
       run: python setup.py sdist bdist_wheel
 
-    # Upload files from dist/. Not sure why.
+    # Upload Source Distribution to GitHub Actions.
     - name: Upload dist
       uses: actions/upload-artifact@master
       with:
-        name: pypi-dist
+        name: source-dist
         path: dist
 
     # Build sphinx docs.
@@ -110,7 +110,7 @@ jobs:
         make html
         touch build/html/.nojekyll
 
-    # Upload docs.
+    # Upload sphinx docs to GitHub Actions.
     - name: Upload docs
       uses: actions/upload-artifact@master
       with:
@@ -129,17 +129,18 @@ jobs:
     if: github.event_name == 'push'
 
     # The type of runner that the job will run on.
-    runs-on: ${{ matrix.os }}
+    #runs-on: ${{ matrix.os }}
+    runs-on: [ubuntu-latest]
 
     # Configure across different platforms.
-    strategy:
-      matrix:
+    #strategy:
+    #  matrix:
 
         # Linux
-        os: [ubuntu-latest]
+        #os: [ubuntu-latest]
 
         # Python versions
-        python-version: [3.7]
+        #python-version: [3.7]
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
@@ -150,19 +151,12 @@ jobs:
     - name: GitHub Checks
       uses: actions/checkout@v2
 
-    # Downloads files from dist/. Not sure why.
+    # Downloads files from GitHub Actions.
     - name: Download dist
       uses: actions/download-artifact@master
       with:
-        name: pypi-dist
+        name: source-dist
         path: dist
-
-    # Download sphinx docs. Haven't tested. Maybe goes under Build and Test?
-    - name: Download docs
-      uses: actions/download-artifact@master
-      with:
-        name: sphinx-docs
-        path: docs/build/html
 
     # Upload to PYPI.
     #- name: Publish package
@@ -190,12 +184,19 @@ jobs:
         # python setup.py sdist
         # anaconda upload --skip-existing dist/*.tar.gz
 
-    - name: publish-to-conda
-      uses: fcakyon/conda-publish-action@v1.3
+    #- name: publish-to-conda
+    #  uses: fcakyon/conda-publish-action@v1.3
+    #  with:
+    #    subdir: 'dist'
+    #    anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
+    #    platforms: 'win oxs linux'
+
+    # Download sphinx docs from GitHub Actions.
+    - name: Download docs
+      uses: actions/download-artifact@master
       with:
-        subdir: 'dist'
-        anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
-        platforms: 'win oxs linux'
+        name: sphinx-docs
+        path: docs/build/html
 
     # Deploy sphinx docs to GitHub.
     - name: Deploy to gh-pages
