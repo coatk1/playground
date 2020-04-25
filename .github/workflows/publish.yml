@@ -5,7 +5,7 @@ name: Publish
 on:
 
   release:
-    type:
+    types:
       - published
       - created
       - edited
@@ -38,6 +38,18 @@ jobs:
     - name: GitHub Checks
       uses: actions/checkout@v2
 
+    # Set up Python
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    # Install dependencies.
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip setuptools wheel
+        pip install -r requirements.txt
+
     # Build Source Distribution.
     - name: Build source distribution
       run: python setup.py sdist bdist_wheel
@@ -49,14 +61,14 @@ jobs:
         name: source-dist
         path: dist
 
-    # Downloads files from GitHub Actions.
+    # Download Source Distribution from GitHub Actions.
     - name: Download dist
       uses: actions/download-artifact@master
       with:
         name: source-dist
         path: dist
 
-    # Upload to PYPI.
+    # Publish to PYPI.
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@master
       with:
@@ -77,13 +89,13 @@ jobs:
       run: |
         conda install anaconda-client
 
-    # Upload to Anaconda Cloud. Need to add GitHub Secret.
+    # Publish to Anaconda Cloud. Need to add GitHub Secret.
     - name: Upload to Anaconda
       run: |
         #python setup.py sdist
         anaconda upload --skip-existing dist/*.tar.gz
 
-    # Upload to Anaconda Cloud.
+    # Publish to Anaconda Cloud.
     #- name: Upload to Anaconda
     #  uses: fcakyon/conda-publish-action@v1.3
     #  with:
