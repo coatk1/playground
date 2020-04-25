@@ -1,4 +1,4 @@
-name: Check and Test
+name: Check
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch.
@@ -21,7 +21,7 @@ jobs:
   # Continuous Integration
   # This workflow contains a single job called "check".
   check:
-    name: Check and Test
+    name: Check
 
     # Configure across different platforms.
     strategy:
