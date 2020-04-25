@@ -30,13 +30,12 @@ jobs:
     - name: GitHub Checks
       uses: actions/checkout@v2
 
-    # Build sphinx docs.
+    # Build sphinx docs. For whatever reason, this works for Windows and NOT Linux.
     - name: Build docs
       run: |
         pip install sphinx sphinx_rtd_theme
         cd docs
-        #make html
-        make
+        make html
         touch build/html/.nojekyll
 
     # Upload sphinx docs to GitHub Actions.
@@ -46,13 +45,21 @@ jobs:
         name: sphinx-docs
         path: docs/build/html
 
-  #upload:
-  #  name: Upload
+  upload:
+    name: Upload
 
     # Needs the build step to pass.
-  # needs: build
+    needs: build
 
-  #  runs-on: [ubuntu-latest]
+    # The type of runner that the job will run on.
+    runs-on: [ubuntu-latest]
+
+    # Steps represent a sequence of tasks that will be executed as part of the job.
+    steps:
+
+    # Using actions/checkout get code from repo.
+    - name: GitHub Checks
+      uses: actions/checkout@v2
 
     # Download sphinx docs from GitHub Actions.
     - name: Download docs
@@ -61,7 +68,7 @@ jobs:
         name: sphinx-docs
         path: docs/build/html
 
-    # Deploy sphinx docs to GitHub.
+    # Deploy sphinx docs to GitHub. This only works with Linux.
     - name: Deploy to gh-pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
