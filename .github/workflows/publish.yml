@@ -80,7 +80,7 @@ jobs:
     name: Anaconda
 
     # Needs the build step to pass.
-    #needs: publish_1
+    needs: publish_1
 
     # Configure across different platforms.
     strategy:
