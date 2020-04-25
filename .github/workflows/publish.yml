@@ -118,10 +118,11 @@ jobs:
           auto-update-conda: true
           python-version: ${{ matrix.python-version }}
 
-    # Install dependencies.
+    # Install dependencies. Installs must be on separate lines.
     - name: Install dependencies
       run: |
         conda install anaconda-client
+        conda install conda-build
 
     # Download Source Distribution from GitHub Actions.
     - name: Download dist
@@ -134,6 +135,7 @@ jobs:
     - name: Upload to Anaconda
       run: |
         #python setup.py sdist
+        anaconda login
         anaconda upload --skip-existing dist/*.tar.gz
-      with:
-        anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
+      #with:
+      #  anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
