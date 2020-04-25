@@ -18,7 +18,7 @@ jobs:
   # Continuous Integration
   # This workflow contains a single job called "build".
   build:
-    name: Publish
+    name: Build
 
     # The type of runner that the job will run on.
     runs-on: [windows-latest]
@@ -35,7 +35,8 @@ jobs:
       run: |
         pip install sphinx sphinx_rtd_theme
         cd docs
-        make html
+        #make html
+        make
         touch build/html/.nojekyll
 
     # Upload sphinx docs to GitHub Actions.
@@ -44,6 +45,14 @@ jobs:
       with:
         name: sphinx-docs
         path: docs/build/html
+
+  #upload:
+  #  name: Upload
+
+    # Needs the build step to pass.
+  # needs: build
+
+  #  runs-on: [ubuntu-latest]
 
     # Download sphinx docs from GitHub Actions.
     - name: Download docs

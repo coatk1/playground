@@ -5,6 +5,9 @@ playground
 .. image:: https://github.com/coatk1/playground/workflows/Check/badge.svg
  :target: https://github.com/coatk1/playground/actions?query=workflow%3ACheck
 
+.. image:: https://github.com/coatk1/playground/workflows/Publish/badge.svg
+ :target: https://github.com/coatk1/playground/actions?query=workflow%3APublish
+
 .. image:: https://img.shields.io/github/languages/count/coatk1/playground
  :target: GitHub language count
 
