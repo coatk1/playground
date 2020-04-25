@@ -17,10 +17,6 @@ jobs:
   # Publish
   publish:
 
-    # The type of runner that the job will run on.
-    runs-on: ${{ matrix.os }}
-    #runs-on: [ubuntu-latest]
-
     # Configure across different platforms.
     strategy:
       matrix:
@@ -30,6 +26,10 @@ jobs:
 
         # Python versions
         python-version: [3.7]
+
+    # The type of runner that the job will run on.
+    runs-on: ${{ matrix.os }}
+    #runs-on: [ubuntu-latest]
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:

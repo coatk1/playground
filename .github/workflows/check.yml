@@ -103,21 +103,6 @@ jobs:
     #    name: source-dist
     #    path: dist
 
-    # Build sphinx docs.
-    #- name: Build docs
-    #  run: |
-    #    pip install sphinx sphinx_rtd_theme
-    #    cd docs
-    #    make html
-    #    touch build/html/.nojekyll
-
-    # Upload sphinx docs to GitHub Actions.
-    #- name: Upload docs
-    #  uses: actions/upload-artifact@master
-    #  with:
-    #    name: sphinx-docs
-    #    path: docs/build/html
-
   # Continuous Delivery
   # This job will deploy the code.
   #upload:
@@ -191,18 +176,3 @@ jobs:
     #    subdir: 'dist'
     #    anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
     #    platforms: 'win oxs linux'
-
-    # Download sphinx docs from GitHub Actions.
-    #- name: Download docs
-    #  uses: actions/download-artifact@master
-    #  with:
-    #    name: sphinx-docs
-    #    path: docs/build/html
-
-    # Deploy sphinx docs to GitHub.
-    #- name: Deploy to gh-pages
-    #  uses: JamesIves/github-pages-deploy-action@releases/v3
-    #  with:
-    #    ACCESS_TOKEN: ${{ secrets.GH_PAT }}
-    #    BRANCH: gh-pages
-    #    FOLDER: docs/build/html
