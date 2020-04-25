@@ -36,6 +36,8 @@ Cloud
 -----
 * https://anaconda.org/
 * https://docs.anaconda.com/
+* https://docs.anaconda.com/anaconda-cloud/commandreference/
+* https://docs.anaconda.com/anaconda-cloud/user-guide/tasks/work-with-accounts/
 
 Conda
 -----
