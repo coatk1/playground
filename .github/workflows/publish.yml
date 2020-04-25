@@ -7,7 +7,6 @@ on:
   release:
     types:
       - published
-      - created
       - edited
       - prereleased
 
@@ -22,7 +21,7 @@ jobs:
       matrix:
 
         # Linux
-        os: [ubuntu-latest]
+        os: [windows-latest]
 
         # Python versions
         python-version: [3.7]
