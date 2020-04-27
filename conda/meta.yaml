@@ -8,8 +8,9 @@ package:
   name: {{ name | lower }}
 
   # version: {{ GIT_DESCRIBE_TAG }}
-  # version: {{ data.get('version') }}
-  version: {{ data.version }}
+  version: {{ data.get('version') }}
+  #version: {{ data.version }}
+  #version: {{ environ.get('GIT_DESCRIBE_TAG', '')[1:]+environ.get('GIT_DESCRIBE_NUMBER', '') }}
 
 # Source of the package
 source:
@@ -18,7 +19,7 @@ source:
   #git_url: ../
   #{%- else -%}
   #path: ../
-  path: ../dist/oboyo-{{ version }}.tar.gz
+  path: ../dist/oboyo-1.0.3.tar.gz
 
 # Building the package
 build:
@@ -55,7 +56,7 @@ requirements:
 
   run:
     - python
-    - numpy 1.18
+    - numpy=1.18
     {% for req in data.get('install_requires', []) -%}
     - {{ req }}
     {% endfor %}
@@ -75,10 +76,10 @@ test:
     {% endfor %}
 
 about:
-  # home: https://github.com/coatk1/playground/
-  home: {{ data.url }}
+  home: https://github.com/coatk1/playground/
+  #home: {{ data.url }}
   license: MIT
   license_file: LICENSE.md
-  summary: {{ data.description }}
+  summary: Test
   description: |
     This package is for testing.
