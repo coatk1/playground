@@ -1,14 +1,83 @@
-package:
-  name: oboyo
-  version: 1.0.0
+{% set name = 'oboyo' %}
+# {% set version = '1.0.0' %}
+{% set data = load_setup_py_data() %}
 
+# Required
+package:
+  #name: oboyo
+  name: {{ name | lower }}
+
+  # version: {{ GIT_DESCRIBE_TAG }}
+  # version: {{ data.get('version') }}
+  version: {{ data.version }}
+
+# Source of the package
+source:
+  #url: https://anaconda.org/coatk1/oboyo/{{ version }}/download/oboyo-{{ version }}.tar.gz
+  #{% if os.getenv() -%}
+  #git_url: ../
+  #{%- else -%}
+  #path: ../
+  path: ../dist/oboyo-{{ version }}.tar.gz
+
+# Building the package
 build:
   number: 0
   noarch: python
-  # script: python setup.py install
+  # script_env: PYTEST_XARGS
+  # script: python -m pip install --no-deps --ignore-installed .
 
+  # Use instead of build.sh or bld.bat.
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+  # skip: True  # [ py27 ]
+
+  {%- if 'console_scripts' in data.get('entry_points', {}) %}
+  entry_points:
+    {% for entry in data.entry_points.console_scripts %}
+    - {{ entry }}
+    {% endfor %}
+  {% endif %}
+
+# Specifies build and runtime requirements.
 requirements:
+  build:
+    - git=2.14
+    - python
+    - setuptools>=17.1
+    {% for req in data.get('setup_requires', []) -%}
+    - {{ req }}
+    {% endfor %}
+
+  host:
+    - python
+    # - pip
+
   run:
     - python
+    {% for req in data.get('install_requires', []) -%}
+    - {{ req }}
+    {% endfor %}
+
+test:
+  source_files:
+    - .coveragerc
+
+  requires:
+    {% for req in data.get('tests_require', []) -%}
+    - {{ req }}
+    {% endfor %}
+
+  imports:
+    {% for req in data.get('packages', []) -%}
+    - {{ req }}
+    {% endfor %}
+
 about:
-  summary: This is a simple meta-package
+  # home: https://github.com/coatk1/playground/
+  home: {{ data.url }}
+  license: MIT
+  license_file: LICENSE.md
+  summary: {{ data.description }}
+  description: |
+    This package is for testing.
