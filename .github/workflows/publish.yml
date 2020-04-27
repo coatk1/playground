@@ -133,16 +133,16 @@ jobs:
 
     # Publish to Anaconda Cloud. Need to add GitHub Secret.
     - name: Login to Anaconda
-      with:
-        anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
-    - name: Upload to Anaconda
+      #with:
+      #  anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
+    #- name: Upload to Anaconda
       run: |
         # PYPI package
         #python setup.py sdist
         # Anaconda package
         #conda config --set anaconda_upload no
         #conda build . --output
-        #anaconda login
+        anaconda login
         anaconda upload --skip-existing dist/*.tar.gz
       #with:
       #  anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
