@@ -79,7 +79,7 @@ jobs:
     - name: Upload to Anaconda
       uses: fcakyon/conda-publish-action@v1.3
       with:
-        subdir: 'dist'
+        subdir: 'conda'
         anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
         platforms: 'win oxs linux'
 
