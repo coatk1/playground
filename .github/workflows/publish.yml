@@ -76,12 +76,12 @@ jobs:
         # packages_dir: custom-dir/
 
     # Publish to Anaconda Cloud.
-    - name: Upload to Anaconda
-      uses: fcakyon/conda-publish-action@v1.3
-      with:
-        subdir: 'conda'
-        anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
-        platforms: 'win'
+    #- name: Upload to Anaconda
+    #  uses: fcakyon/conda-publish-action@v1.3
+    #  with:
+    #    subdir: 'conda'
+    #    anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
+    #    platforms: 'win'
 
   # Publish to Anaconda
   publish_2:
@@ -132,6 +132,9 @@ jobs:
         path: dist
 
     # Publish to Anaconda Cloud. Need to add GitHub Secret.
+    - name: Login to Anaconda
+      with:
+        anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
     - name: Upload to Anaconda
       run: |
         # PYPI package
@@ -139,7 +142,7 @@ jobs:
         # Anaconda package
         #conda config --set anaconda_upload no
         #conda build . --output
-        anaconda login
+        #anaconda login
         anaconda upload --skip-existing dist/*.tar.gz
       #with:
       #  anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
