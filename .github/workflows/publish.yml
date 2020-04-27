@@ -81,7 +81,7 @@ jobs:
       with:
         subdir: 'conda'
         anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
-        platforms: 'win oxs linux'
+        platforms: 'win'
 
   # Publish to Anaconda
   publish_2:
