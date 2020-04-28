@@ -68,8 +68,15 @@ Graphical User Interface
 
 Web Apps
 ========
+
+Flask
+-----
 * https://www.tutorialspoint.com/flask/index.htm
+
+Django
+------
 * https://www.tutorialspoint.com/django/
+* https://docs.djangoproject.com/en/3.0/
 
 
 Rest API
