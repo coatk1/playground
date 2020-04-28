@@ -1,1 +1,1 @@
-#from my_django.test_app import *
+# from my_django.test_app import *
