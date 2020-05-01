@@ -29,22 +29,88 @@ A repo for testing and references.
 File Contents
 =============
 
-playground
-    cheatsheets
-        | **code** <- snippets of code
-        | **data_processing** <- data wrangling, numpy, pandas, scipy cheatsheets
-        | **data_science** <- resources of what data science is
-        | **data_science_workflow** <- resources of data science workflow
-        | **large_data** <- dask, pyspark cheatsheets
-        | **ml** <- keras, scikit-learn, spacy cheatsheets as well as decision tree and neural networks
-        | **tableau** <- tableau cheatsheets
-        | **tools** <- jenkins, git, conda, jupyter cheatsheets
-        | **visualization** <- bokeh, matplotlib, seaborn cheatsheets
-    gui
-        | **pysimple** <- gui code using pysimple
-    notebooks
-        | **datetime**
-        | **finance**
+::
+
+  tree
+  
+  ├───.github
+  │   ├───ISSUE_TEMPLATE
+  │   └───workflows
+  ├───.pytest_cache
+  │   └───v
+  │       └───cache
+  ├───.test_circleci
+  ├───.vscode
+  ├───build
+  │   ├───bdist.win-amd64
+  │   └───lib
+  │       ├───oboyo
+  │       │   └───files
+  │       └───test_oboyo
+  ├───cheatsheets
+  │   ├───code
+  │   ├───coursera
+  │   ├───data_processing
+  │   ├───data_science
+  │   ├───data_science_workflow
+  │   ├───github
+  │   ├───large_data
+  │   ├───ml
+  │   ├───tableau
+  │   ├───tools
+  │   └───visualization
+  ├───conda
+  ├───dist
+  ├───docs
+  │   ├───build
+  │   │   ├───doctrees
+  │   │   └───html
+  │   │       ├───_sources
+  │   │       └───_static
+  │   │           ├───css
+  │   │           ├───fonts
+  │   │           │   ├───Lato
+  │   │           │   └───RobotoSlab
+  │   │           └───js
+  │   └───source
+  ├───gui
+  │   └───pysimplegui
+  ├───images
+  ├───notebooks
+  │   └───.ipynb_checkpoints
+  ├───oboyo
+  │   ├───.pytest_cache
+  │   │   └───v
+  │   │       └───cache
+  │   ├───files
+  │   │   └───__pycache__
+  │   └───__pycache__
+  ├───oboyo.egg-info
+  ├───python
+  │   └───my_django
+  │       ├───my_django
+  │       │   └───__pycache__
+  │       ├───polls
+  │       │   ├───migrations
+  │       │   │   └───__pycache__
+  │       │   ├───templates
+  │       │   │   └───polls
+  │       │   └───__pycache__
+  │       └───test_app
+  │           ├───migrations
+  │           │   └───__pycache__
+  │           ├───template
+  │           └───__pycache__
+  ├───resources
+  ├───shell
+  ├───temp
+  ├───test_oboyo
+  │   ├───.pytest_cache
+  │   │   └───v
+  │   │       ├───cache
+  │   │       └───pep8
+  │   └───__pycache__
+  └───__pycache__
 
 `Tools <https://github.com/coatk1/playground/blob/master/resources/tools.rst>`__
 
