@@ -29,6 +29,11 @@ Linux
 * https://devhints.io/bash
 * https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
 
+AWS
+===
+* https://aws.amazon.com/cloud9/
+* https://aws.amazon.com/codestar/
+
 Anaconda
 ========
 
