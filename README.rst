@@ -29,6 +29,16 @@ A repo for testing and references.
 File Contents
 =============
 
+`Tools <https://github.com/coatk1/playground/blob/master/resources/tools.rst>`__
+
+`Python <https://github.com/coatk1/playground/blob/master/resources/python.rst>`__
+
+`Information <https://github.com/coatk1/playground/blob/master/resources/info.rst>`__
+
+
+File Structure
+==============
+
 ::
 
   tree
@@ -111,9 +121,3 @@ File Contents
   │   │       └───pep8
   │   └───__pycache__
   └───__pycache__
-
-`Tools <https://github.com/coatk1/playground/blob/master/resources/tools.rst>`__
-
-`Python <https://github.com/coatk1/playground/blob/master/resources/python.rst>`__
-
-`Information <https://github.com/coatk1/playground/blob/master/resources/info.rst>`__
