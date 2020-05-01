@@ -91,7 +91,6 @@ GitHub Labels
 * https://github.com/Relequestual/sensible-github-labels
 * https://github.com/yoshuawuyts/github-standard-labels
 * https://github.com/dotnet/roslyn/wiki/Labels-used-for-issues
-* https://github.com/dotnet/roslyn/wiki/Labels-used-for-issues
 * https://shields.io/
 * https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md
 
