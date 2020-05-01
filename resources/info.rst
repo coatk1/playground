@@ -14,6 +14,13 @@ Practice
 * `Freecodecamp <https://www.freecodecamp.org/learn/>`__
 
 
+Best Practices
+==============
+* https://opensource.com/article/17/5/30-best-practices-software-development-and-testing
+* https://blog.k2datascience.com/software-engineering-fundamentals-best-practices-b5105d155c6d
+* https://litslink.com/blog/what-are-software-engineering-best-practices
+
+
 Computer Science
 ================
 * `Big O Cheatsheet 1 <https://www.bigocheatsheet.com/>`_
