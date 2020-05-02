@@ -97,6 +97,7 @@ GitHub Labels
 
 DevOps
 ======
+* http://www.jamesbowman.me/post/cdlandscape/ContinuousDeliveryToolLandscape-fullsize.jpeg
 
 Jenkins
 -------
