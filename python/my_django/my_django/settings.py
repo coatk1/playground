@@ -16,6 +16,11 @@
 # Create admin
 # python manage.py createsuperuser
 
+# Test code
+# python manage.py test polls
+# coverage run --source='.' manage.py test polls
+# coverage report
+
 # Source: https://docs.djangoproject.com/en/3.0/intro/tutorial01/
 
 """
