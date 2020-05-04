@@ -16,6 +16,8 @@
 # Create admin
 # python manage.py createsuperuser
 
+# Source: https://docs.djangoproject.com/en/3.0/intro/tutorial01/
+
 """
 Django settings for my_django project.
 
