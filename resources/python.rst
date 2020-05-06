@@ -77,6 +77,9 @@ Django
 ------
 * https://www.tutorialspoint.com/django/
 * https://docs.djangoproject.com/en/3.0/
+* https://docs.djangoproject.com/en/3.0/topics/
+* https://docs.djangoproject.com/en/3.0/howto/
+* https://djangopackages.org/
 
 
 Rest API

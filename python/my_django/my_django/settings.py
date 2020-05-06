@@ -23,6 +23,10 @@
 
 # python -c "import django; print(django.__path__)"
 
+# python -m pip install --user django-polls/dist/django-polls-0.1.tar.gz
+
+# python -m pip uninstall django-polls
+
 # Source: https://docs.djangoproject.com/en/3.0/intro/tutorial01/
 
 """
@@ -58,7 +62,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -66,8 +69,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'polls.apps.PollsConfig',
     # 'test_app',
-    # 'polls' # Using AppConfig
+    # 'polls' # Using AppConfig. Can also use for installed app.
 ]
 
 MIDDLEWARE = [
