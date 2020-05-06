@@ -21,6 +21,8 @@
 # coverage run --source='.' manage.py test polls
 # coverage report
 
+# python -c "import django; print(django.__path__)"
+
 # Source: https://docs.djangoproject.com/en/3.0/intro/tutorial01/
 
 """
@@ -63,8 +65,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     # 'test_app',
-    # 'polls'
+    # 'polls' # Using AppConfig
 ]
 
 MIDDLEWARE = [
@@ -82,7 +85,7 @@ ROOT_URLCONF = 'my_django.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -149,3 +152,5 @@ STATIC_URL = '/static/'
 
 # Added
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+SITE_ID = 1
