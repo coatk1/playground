@@ -9,6 +9,10 @@ Websites
 * https://realpython.com/
 * https://www.w3schools.com/default.asp
 
+Tricks
+------
+* https://realpython.com/python-tricks/
+* https://medium.com/towards-artificial-intelligence/50-python-3-tips-tricks-e5dbe05212d7
 
 Package Manager
 ===============
