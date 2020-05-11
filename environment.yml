@@ -3,7 +3,7 @@ name: pyBase
 channels:
   - defaults
   - conda-forge
-  
+
 dependencies:
   # Python Related
   - python=3.7              # Python version 3.7
@@ -69,6 +69,9 @@ dependencies:
   # Web Frameworks
   - flask                   # Lightweight framework
   - django                  # Heavy duty framework
+
+  # Makefile
+  - make                    # For Makefiles
 
   # Anaconda Build
   # - anaconda-client         # Reaches out to Anaconda cloud

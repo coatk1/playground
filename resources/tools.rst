@@ -29,6 +29,10 @@ Linux
 * https://devhints.io/bash
 * https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
 
+Makefile
+--------
+* https://www.gnu.org/software/make/manual/make.html
+
 AWS
 ===
 * https://aws.amazon.com/cloud9/
@@ -137,7 +141,7 @@ File Types
 
 reStructuredText
 ----------------
-* https://docs.anaconda.com/restructuredtext/ 
+* https://docs.anaconda.com/restructuredtext/
 * https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
 
 Markdown
