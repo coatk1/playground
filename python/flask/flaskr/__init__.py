@@ -3,10 +3,13 @@
 # flask run
 # http://127.0.0.1:5000/hello
 
+# factory.py
+
 import os
 
 from flask import Flask
 from . import db
+from . import auth
 
 
 def create_app(test_config=None):
@@ -40,6 +43,10 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
 
+    # Initialize database
     db.init_app(app)
+
+    # Register authentication
+    app.register_blueprint(auth.bp)
 
     return app
