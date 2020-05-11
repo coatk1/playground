@@ -108,6 +108,14 @@ Pickle
 * https://docs.python.org/3.7/library/pickle.html
 
 
+Command Line
+============
+
+Click
+-----
+* https://click.palletsprojects.com/en/7.x/
+
+
 Databases
 =========
 
@@ -124,6 +132,10 @@ MongoDB
 SQLAlchemy
 ----------
 * https://docs.sqlalchemy.org/en/13/orm/tutorial.html
+
+SQLite
+------
+* https://sqlite.org/docs.html
 
 PyTest
 ======

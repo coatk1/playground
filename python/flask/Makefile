@@ -1,27 +1,31 @@
 # Makefile for flask
 
 # .RECIPEPREFIX =
+# Global variables
+NAME = flaskr
 
-# Put it first so that "make" without argument is like "make help".
+# First target is default.
 .PHONY: help
 help:
-	@echo "Usage: $ make <target> [NAME=Flaskproject]"
-	@echo " > create    : create flask project ${NAME}"
-	@echo " > destroy   : destroy flask project ${NAME}"
-	@echo " > deps      : install dependentcies via pip"
+# @echo prints inside quotes only.
+# @echo "Usage: $ make <target> [NAME=${NAME}]"
 
-# .PHONY: style
-# style:
-# 	flake8 flaskr
+	@echo " > style  : check PEP8 on flask project ${NAME}"
+	@echo " > run    : run flask project ${NAME}"
+	@echo " > test   : test flask project ${NAME}"
+
+.PHONY: style
+style:
+	flake8 flaskr
 
 # lint:
-	# pylint --max-line-length=120 pypi_portal
+#	pylint --max-line-length=120 pypi_portal
 
 # test:
-	# py.test --cov-report term-missing --cov pypi_portal tests
+# 	py.test --cov-report term-missing --cov pypi_portal tests
 
 # testpdb:
-	# py.test --pdb tests
+# 	py.test --pdb tests
 
 .PHONY: run
 run:
