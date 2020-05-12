@@ -184,7 +184,7 @@ setup(
     # executes the function `main` from this package when invoked:
     entry_points={
         'console_scripts': [
-            '{} = oboyo.cli:main'.format(COMMAND_NAME)
+            '{} = oboyo.cli:cli'.format(COMMAND_NAME)
         ],
     },
 

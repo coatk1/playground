@@ -39,7 +39,7 @@ def create():
 
         else:
             db = get_db()
-            db.execute('INSERT INTO post (title, body, author_id)'' VALUES (?, ?, ?)',(title, body, g.user['id']))
+            db.execute('INSERT INTO post (title, body, author_id)'' VALUES (?, ?, ?)', (title, body, g.user['id']))
             db.commit()
             return redirect(url_for('blog.index'))
 
@@ -85,7 +85,7 @@ def update(id):
 
         else:
             db = get_db()
-            db.execute('UPDATE post SET title = ?, body = ?'' WHERE id = ?',(title, body, id))
+            db.execute('UPDATE post SET title = ?, body = ?'' WHERE id = ?', (title, body, id))
             db.commit()
             return redirect(url_for('blog.index'))
 

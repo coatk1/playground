@@ -16,7 +16,7 @@ help:
 
 .PHONY: style
 style:
-	flake8 flaskr
+	flake8 ${NAME}
 
 # lint:
 #	pylint --max-line-length=120 pypi_portal
@@ -27,8 +27,10 @@ style:
 # testpdb:
 # 	py.test --pdb tests
 
+# Not sure if this works
 .PHONY: run
 run:
-	set FLASK_APP=flaskr
+	set FLASK_APP=${NAME}
 	set FLASK_ENV=development
 	flask run
+	python ${NAME}/cli.py run
