@@ -1,9 +1,9 @@
-# Makefile for flaskr
+# Makefile for polls
 
 # .RECIPEPREFIX =
 
 # Global variables
-NAME          = flaskr
+NAME          = polls
 PYTHON        = python
 FLAKE8        = flake8
 PYDOCSTYLE    = pydocstyle
@@ -68,9 +68,6 @@ docstyle:
 # Run, test, check code
 .PHONY: run
 run:
-	@set FLASK_APP=${NAME}
-	@set FLASK_ENV=development
-	@flask run
 	@$(PYTHON) $(NAME)/cli.py run
 
 .PHONY: test
