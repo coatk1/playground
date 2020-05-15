@@ -44,6 +44,7 @@ help:
 	@echo -e "$(BLUE)docstyle $(BACK)                 : check PEP257 on project $(NAME)"
 	@echo ""
 	@echo "Run, test and check code"
+	@echo -e "$(BLUE)migrate $(BACK)                  : apply model changes to db $(NAME)"
 	@echo -e "$(BLUE)run $(BACK)                      : run project $(NAME)"
 	@echo -e "$(BLUE)test $(BACK)                     : test project $(NAME)"
 	@echo -e "$(BLUE)security $(BACK)                 : run bandit on project $(NAME)"
@@ -65,10 +66,14 @@ style:
 docstyle:
 	@$(PYDOCSTYLE) $(NAME)/
 
+.PHONY: migrate
+migrate:
+	@$(PYTHON) manage.py migrate
+
 # Run, test, check code
 .PHONY: run
 run:
-	@$(PYTHON) $(NAME)/cli.py run
+	@$(PYTHON) manage.py runserver
 
 .PHONY: test
 test:
