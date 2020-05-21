@@ -17,10 +17,14 @@ class Calc:
 
     @staticmethod
     def add(x, y):
+        # Type hints comments that are backwards compatiable with Python 2.
+        # type: (int, int) -> int
         return x + y
 
     @staticmethod
     def multiply(x, y):
+        # Type hints comments that are backwards compatiable with Python 2.
+        # type: (int, int) -> int
         return x * y
 
 
@@ -31,4 +35,6 @@ class Distance(Calc):
 
     @staticmethod
     def power(x):
+        # Type hints comments that are backwards compatiable with Python 2.
+        # type: (int) -> int
         return x ** 2
