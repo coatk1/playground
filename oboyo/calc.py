@@ -8,6 +8,9 @@ temp.add()
 # Let calc be module instead
 
 
+from typing import Union
+
+
 class Calc:
 
     # Constructor
@@ -18,13 +21,13 @@ class Calc:
     @staticmethod
     def add(x, y):
         # Type hints comments that are backwards compatiable with Python 2.
-        # type: (int, int) -> int
+        # type: (Union[int, float], Union[int, float]) -> Union[int, float]
         return x + y
 
     @staticmethod
     def multiply(x, y):
         # Type hints comments that are backwards compatiable with Python 2.
-        # type: (int, int) -> int
+        # type: (Union[int, float], Union[int, float]) -> Union[int, float]
         return x * y
 
 
@@ -36,5 +39,5 @@ class Distance(Calc):
     @staticmethod
     def power(x):
         # Type hints comments that are backwards compatiable with Python 2.
-        # type: (int) -> int
+        # type: (Union[int, float]) -> Union[int, float]
         return x ** 2
