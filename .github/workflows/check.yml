@@ -68,8 +68,9 @@ jobs:
           # ${{ runner.os }}-pip-
 
     # Install dependencies.
-    #- name: Install dependencies
-    #  run: |
+    - name: Install dependencies
+      run: |
+        pip install typing
     #    python -m pip install --upgrade pip setuptools wheel
     #    pip install -r requirements.txt
 
@@ -77,7 +78,7 @@ jobs:
     - name: Check PEP8 compliance
       run: |
         pip install flake8
-        flake8 --filename=*.py --ignore=E501,F401 --statistics oboyo/
+        flake8 --filename=*.py --ignore=E501,F401,E402 --statistics oboyo/
 
     # Check if PEP257 compliant with pydocstyle.
     # - name: Check PEP257 compliance
