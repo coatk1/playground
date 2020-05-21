@@ -11,7 +11,7 @@
 
 def check(file):
     # Type hints comments that are backwards compatiable with Python 2.
-    # type: (str)
+    # type: (str) -> None
 
     if file.endswith('csv'):
         print('file is csv')
