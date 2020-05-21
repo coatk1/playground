@@ -21,9 +21,7 @@ Package Manager
 
 Documentation
 =============
-* https://realpython.com/python-type-checking/
 * https://numpydoc.readthedocs.io/en/latest/format.html
-* http://www.pydocstyle.org/en/latest/
 
 PEP8
 ----
@@ -35,9 +33,18 @@ Flake8
 ------
 * http://flake8.pycqa.org/en/latest/
 
+Docstrings
+----------
+* http://www.pydocstyle.org/en/latest/
+
 Sphinx
 ------
 * https://www.sphinx-doc.org/en/master/contents.html
+
+Type Hints
+----------
+* https://realpython.com/python-type-checking/
+* https://mypy.readthedocs.io/en/stable/index.html
 
 
 Code Design
