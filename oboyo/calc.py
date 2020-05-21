@@ -7,7 +7,6 @@ temp.add()
 '''
 # Let calc be module instead
 
-
 from typing import Union
 
 
