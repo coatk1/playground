@@ -11,6 +11,7 @@ dependencies:
   - openssl                 # Handling certificates
   - openpyxl                # Excel files in Python
   - pytest-cov              # Test Python code coverage
+  - typing                  # For python type checking. Use for python 3 and above
   - bandit                  # Test vulnerabilities in Python code
   - setuptools              # Setting up Python package
   - wheel                   # Setting up Python package
@@ -58,6 +59,7 @@ dependencies:
   - yapf                    # Formatting code
   - flake8                  # Check formatting
   - pydocstyle              # Check formatting
+  - mypy>=0.6               # Check python type checking. Updated version for reveal_locals() method
 
   # Sphinx Docs
   - sphinx                  # Building sphinx docs
