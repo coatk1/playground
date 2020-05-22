@@ -14,14 +14,15 @@ Tricks
 * https://realpython.com/python-tricks/
 * https://medium.com/towards-artificial-intelligence/50-python-3-tips-tricks-e5dbe05212d7
 
+
 Package Manager
 ===============
 * https://pypi.org/
 
 
-Documentation
-=============
-* https://numpydoc.readthedocs.io/en/latest/format.html
+Best Practices
+==============
+* https://realpython.com/tutorials/best-practices/
 
 PEP8
 ----
@@ -68,6 +69,18 @@ Python Package
 * https://pypi.org/classifiers/
 * https://pypi.org/pypi?%3Aaction=list_classifiers
 * https://github.com/audreyr/cookiecutter-pypackage
+
+
+Data Science
+============
+
+Pandas
+------
+* https://pandas.pydata.org/docs/index.html
+
+NumPy
+-----
+* https://numpydoc.readthedocs.io/en/latest/format.html
 
 
 Graphical User Interface
@@ -143,6 +156,7 @@ SQLAlchemy
 SQLite
 ------
 * https://sqlite.org/docs.html
+
 
 PyTest
 ======
