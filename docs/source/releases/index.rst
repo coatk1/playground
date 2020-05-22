@@ -5,7 +5,7 @@ Release Notes
 .. toctree::
     :maxdepth: 2
 
-    version_1
+    version_1 
 
 
 .. toctree::
