@@ -19,6 +19,24 @@ playground
 
 .. image:: https://img.shields.io/github/repo-size/coatk1/playground
  :target: GitHub repo size
+ 
+.. image:: https://img.shields.io/github/workflow/status/coatk1/playground/Check
+ :target: GitHub Workflow Status
+
+.. image:: https://img.shields.io/conda/v/coatk1/oboyo 
+ :target: Conda
+
+.. image:: https://img.shields.io/github/v/release/coatk1/playground?include_prereleases   
+ :target: GitHub release (latest by date including pre-releases)
+
+.. image:: https://img.shields.io/pypi/v/oboyo   
+ :target: PyPI
+
+.. image:: https://img.shields.io/pypi/pyversions/oboyo   
+ :target: PyPI - Python Version
+
+.. image:: https://img.shields.io/conda/pn/coatk1/oboyo   
+ :target: Conda
 
 A repo for testing and references.
 
