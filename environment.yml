@@ -18,6 +18,7 @@ dependencies:
   - twine                   # Deploying Python package on PYPI
   - line_profiler           # For code profiling runtime on cli
   - memory_profiler         # For code profiling runtime in files
+  - requests                # Accessing urls
 
   # GitHub Related
   - git=2.14                # Used to access GitHub
@@ -45,7 +46,6 @@ dependencies:
   - geojson                 # GeoJson
   - geohash2                # Geohashes
   - shapely                 # Geos
-  - requests                # Accessing urls
 
   # Visualization
   - matplotlib              # Data visualization
