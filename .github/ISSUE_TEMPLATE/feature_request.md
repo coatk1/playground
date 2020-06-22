@@ -8,6 +8,8 @@ labels: 'Type: Enhancement'
 
 - [ ] I have searched the [issues](https://github.com/coatk1/playground/issues) of this repository and believe that this is not a duplicate.
 
+- [ ] I have labeled the **Area** and **Priority** of this issue, under **Labels** on the right.
+
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
