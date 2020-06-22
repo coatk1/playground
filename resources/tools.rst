@@ -79,6 +79,7 @@ GitHub
 * `Git Tagging <https://git-scm.com/book/en/v2/Git-Basics-Tagging>`_
 * `Git Branching Model <https://nvie.com/posts/a-successful-git-branching-model/>`_
 * `GitHub Community <https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file>`__
+* https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md
 
 GitHub Actions
 --------------
@@ -97,7 +98,7 @@ GitHub Labels
 * https://github.com/yoshuawuyts/github-standard-labels
 * https://github.com/dotnet/roslyn/wiki/Labels-used-for-issues
 * https://shields.io/
-* https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md
+* https://www.color-hex.com/color-palettes/popular.php
 
 
 DevOps
