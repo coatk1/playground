@@ -8,6 +8,8 @@ labels: 'Type: Bug'
 
 - [ ] I have searched the [issues](https://github.com/coatk1/playground/issues) of this repository and believe that this is not a duplicate.
 
+- [ ] I have labeled the **Area** and **Priority** of this issue, under **Labels** on the right.
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
