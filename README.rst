@@ -49,6 +49,7 @@ Sites
 * https://anaconda.org/
 * https://pypi.org/
 * https://dummies.atlassian.net/secure/Dashboard.jspa
+* https://wordpress.com/
 
 
 File Contents
