@@ -42,8 +42,6 @@ A repo for testing and references.
 
 **NOTE: I DO NOT OWN ANY OF THE RESOURCES I REFER. THIS IS MAINLY FOR TESTING AND EDUCATIONAL PURPOSES OF LEARNING CODE AND GITHUB.**
 
-Testing 12
-
 .. contents::
 
 Sites
