@@ -63,7 +63,6 @@ File Contents
 
 File Structure
 ==============
-test
 
 ::
 
