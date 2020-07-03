@@ -44,6 +44,13 @@ A repo for testing and references.
 
 .. contents::
 
+Sites
+=====
+* https://anaconda.org/
+* https://pypi.org/
+* https://dummies.atlassian.net/secure/Dashboard.jspa
+
+
 File Contents
 =============
 
