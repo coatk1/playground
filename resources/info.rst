@@ -6,13 +6,33 @@ Information
 
 Practice
 ========
-* `HackerRank <https://www.hackerrank.com/>`__
-* `LeetCode <https://leetcode.com/>`__
-* `DataCamp <https://www.datacamp.com/>`__
-* `CodingGame <https://www.codingame.com/start>`__
-* `Codecademy <https://www.codecademy.com/login>`__
-* `Freecodecamp <https://www.freecodecamp.org/learn/>`__
 
+Programming
+-----------
+* https://www.hackerrank.com/
+* https://leetcode.com/
+* https://www.codingame.com/start
+* https://www.codecademy.com/login
+* https://www.freecodecamp.org/learn/
+
+Data Science
+------------
+* https://www.datacamp.com/
+
+Cyber
+-----
+* https://www.hackthissite.org/
+* https://thisislegal.com/
+* https://techtalk.gfi.com/top-20-free-digital-forensic-investigation-tools-for-sysadmins/
+
+Web Dev
+-------
+* http://html.net/
+
+Learning
+========
+* https://www.thenewboston.com/
+* https://www.khanacademy.org/
 
 Best Practices
 ==============
