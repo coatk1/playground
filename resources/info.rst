@@ -46,6 +46,9 @@ Computer Science
 * `Big O Cheatsheet 1 <https://www.bigocheatsheet.com/>`_
 * `Big O Cheatsheet 2 <https://www.hackerearth.com/practice/notes/big-o-cheatsheet-series-data-structures-and-algorithms-with-thier-complexities-1/>`_
 
+Difference between Developer and Engineer 
+=========================================
+* https://www.geeksforgeeks.org/is-there-any-difference-between-software-developer-and-software-engineer/amp/
 
 Software Engineering
 ====================
