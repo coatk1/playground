@@ -2,7 +2,7 @@
 name: Documentation
 about: Add documentation
 title: '[DOCUMENTATION]'
-labels: 'Type: Documentation'
+labels: 'Type- Documentation'
 
 ---
 
