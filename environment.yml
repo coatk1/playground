@@ -64,6 +64,8 @@ dependencies:
   # Sphinx Docs
   - sphinx                  # Building sphinx docs
   - sphinx_rtd_theme        # Building sphinx docs
+  - nbsphinx                # Building sphinx docs
+  - sphinx-gallery          # Building sphinx docs
 
   # Graphical User Interface
   - pysimplegui             # Graphical User Interface
@@ -78,3 +80,4 @@ dependencies:
   # Anaconda Build
   # - anaconda-client         # Reaches out to Anaconda cloud
   # - conda-build             # Build conda package
+  # - anaconda-project        # For projects that use Anaconda

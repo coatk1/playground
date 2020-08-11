@@ -17,6 +17,7 @@ Command Line
 ============
 * https://www.sslshopper.com/article-most-common-openssl-commands.html
 * https://www.lemoda.net/windows/windows2unix/windows2unix.html
+* https://ss64.com/
 
 Windows
 -------
@@ -33,6 +34,7 @@ Linux
 Makefile
 --------
 * https://www.gnu.org/software/make/manual/make.html
+* https://www.gnu.org/software/make/manual/html_node/index.html
 
 AWS
 ===
@@ -73,13 +75,13 @@ GitHub
 ======
 * `GitHub Cheat sheet <https://github.com/tiimgreen/github-cheat-sheet>`__
 * `Github Setup <https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>`_
-* `GitHub Commands <https://gist.github.com/hofmannsven/6814451>`_
+* `Git Commands <https://gist.github.com/hofmannsven/6814451>`_
+* `More Git Commands <https://github.com/joshnh/Git-Commands>`__
 * `GitHub Forks <https://gist.github.com/Chaser324/ce0505fbed06b947d962>`_
 * `GitHub Branching <https://gist.github.com/santisbon/a1a60db1fb8eecd1beeacd986ae5d3ca>`_
 * `Git Tagging <https://git-scm.com/book/en/v2/Git-Basics-Tagging>`_
 * `Git Branching Model <https://nvie.com/posts/a-successful-git-branching-model/>`_
 * `GitHub Community <https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file>`__
-* https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md
 
 GitHub Actions
 --------------
@@ -100,6 +102,12 @@ GitHub Labels
 * https://shields.io/
 * https://www.color-hex.com/color-palettes/popular.php
 
+SSH Keys
+--------
+* https://coderwall.com/p/7smjkq/multiple-ssh-keys-for-different-accounts-on-github-or-gitlab
+* https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+* https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey
+* https://medium.com/@xiaolishen/use-multiple-ssh-keys-for-different-github-accounts-on-the-same-computer-7d7103ca8693
 
 DevOps
 ======

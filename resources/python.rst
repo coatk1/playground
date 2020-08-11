@@ -42,10 +42,19 @@ Sphinx
 ------
 * https://www.sphinx-doc.org/en/master/contents.html
 
+Sphinx-Gallery
+++++++++++++++
+* https://sphinx-gallery.github.io/stable/index.html
+
+npshinx
++++++++
+* https://nbsphinx.readthedocs.io/en/latest/
+
 Type Hints
 ----------
 * https://realpython.com/python-type-checking/
 * https://mypy.readthedocs.io/en/stable/index.html
+* https://www.python.org/dev/peps/pep-0484/
 
 
 Code Design
@@ -73,6 +82,10 @@ Python Package
 
 Data Science
 ============
+
+Statistics
+----------
+* https://medium.com/@rrfd/standardize-or-normalize-examples-in-python-e3f174b65dfc
 
 Pandas
 ------

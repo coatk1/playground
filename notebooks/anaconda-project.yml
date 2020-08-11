@@ -1,0 +1,27 @@
+name:
+icon:
+description:
+commands:
+    default:
+        notebook:
+        env_spec:
+        description:
+
+    trust:
+        unix:
+        env_spec:
+        description:
+
+variables: { }
+services: { }
+downloads: { }
+platforms: [ ]
+
+packages:
+channels:
+env_specs:
+    default:
+        description:
+        packages:
+        channels: [ ]
+        platforms: [ ]
