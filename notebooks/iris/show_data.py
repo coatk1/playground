@@ -9,3 +9,5 @@ env = os.getenv("DEFAULT_ENV")
 
 # print(flowers)
 print("My project directory is {} and my conda environment is {}".format(project_dir, env))
+
+print('Hello World')
