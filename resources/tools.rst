@@ -65,6 +65,9 @@ Navigator
 ---------
 * https://docs.anaconda.com/anaconda/navigator/tutorials/nav-app/
 
+Anaconda-Project
+----------------
+* https://anaconda-project.readthedocs.io/en/latest/index.html
 
 GitPod
 ======
