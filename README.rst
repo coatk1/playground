@@ -50,6 +50,7 @@ Sites
 * https://pypi.org/
 * https://dummies.atlassian.net/secure/Dashboard.jspa
 * https://wordpress.com/
+* https://frontend.code-inspector.com/home
 
 
 File Contents
