@@ -36,11 +36,15 @@ HTML
 
 CSS
 +++
-* https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
+* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 Bootstrap
 +++++++++
 * https://getbootstrap.com/
+
+Javascript
+++++++++++
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript#Reference
 
 jQuery
 ++++++
