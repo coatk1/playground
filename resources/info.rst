@@ -28,6 +28,24 @@ Cyber
 Web Dev
 -------
 * http://html.net/
+* https://developer.mozilla.org/en-US/docs/Web/Events
+
+HTML
+++++
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
+
+CSS
++++
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
+
+Bootstrap
++++++++++
+* https://getbootstrap.com/
+
+jQuery
+++++++
+* https://code.jquery.com/jquery/
+* https://api.jquery.com/category/events/
 
 Learning
 ========
