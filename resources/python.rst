@@ -8,6 +8,7 @@ Websites
 ========
 * https://realpython.com/
 * https://www.w3schools.com/default.asp
+* https://www.fullstackpython.com/
 
 Tricks
 ------
