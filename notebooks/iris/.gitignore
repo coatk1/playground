@@ -12,10 +12,6 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
-envs/
-notebooks/cluster_app/env/
-notebooks/iris/env/
-notebooks/test_nb/env/
 build/
 develop-eggs/
 dist/

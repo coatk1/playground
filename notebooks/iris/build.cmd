@@ -5,7 +5,7 @@ if not exist C:\Users\Corey\Miniconda3\envs\pyBase1\Scripts\anaconda-project.exe
 goto end
 :yesfile
 echo File does exist
-C:\Users\Corey\Miniconda3\envs\pyBase1\Scripts\anaconda-project.exe %* run
+C:\Users\Corey\Miniconda3\envs\pyBase1\Scripts\anaconda-project.exe %* run notebook
 goto end
 :nofile
 echo File does NOT exist
