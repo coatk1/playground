@@ -181,3 +181,8 @@ PyTest
 * https://docs.pytest.org/en/latest/example/simple.html
 * https://www.tutorialspoint.com/pytest/pytest_conftest_py.htm
 * https://gist.github.com/peterhurford/09f7dcda0ab04b95c026c60fa49c2a68
+
+Regular Expressions
+===================
+* https://www.w3schools.com/python/python_regex.asp
+* https://www.tutorialspoint.com/python/python_reg_expressions.htm
