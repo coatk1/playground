@@ -178,3 +178,10 @@ YAML (1.2 is JSON superset)
 ---------------------------
 * https://yaml.org/
 * https://www.tutorialspoint.com/yaml/index.htm
+
+Projects
+========
+
+Jira
+----
+* https://www.atlassian.com/software/jira/guides/getting-started/best-practices#jira-project-best-practices
