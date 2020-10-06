@@ -8,8 +8,6 @@
 .. toctree::
     :maxdepth: 2
 
-    releases/index
-
 .. todolist::
 
 Indices and tables

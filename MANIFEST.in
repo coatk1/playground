@@ -1,4 +1,0 @@
-include README.rst
-include LICENSE.md
-include versioneer.py
-include oboyo/_version.py
