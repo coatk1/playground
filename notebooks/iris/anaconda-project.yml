@@ -43,7 +43,7 @@ commands:
 variables:
   PROJECT_DIR: .
   IRIS: C:\Users\Corey\Documents\Projects\playground\notebooks\iris\iris.csv
-  DEFAULT_ENV:  C:\Users\Corey\Documents\Projects\playground\notebooks\iris\envs
+  DEFAULT_ENV: C:\Users\Corey\Documents\Projects\playground\notebooks\iris\envs
 
 #
 # In the services section, list any services that should be
