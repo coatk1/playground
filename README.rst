@@ -2,41 +2,17 @@
 playground
 ==========
 
-.. image:: https://github.com/coatk1/playground/workflows/Check/badge.svg
- :target: https://github.com/coatk1/playground/actions?query=workflow%3ACheck
-
-.. image:: https://github.com/coatk1/playground/workflows/Publish/badge.svg
- :target: https://github.com/coatk1/playground/actions?query=workflow%3APublish
-
-.. image:: https://github.com/coatk1/playground/workflows/Docs/badge.svg
- :target: https://github.com/coatk1/playground/actions?query=workflow%3ADocs
+.. image:: https://img.shields.io/github/repo-size/coatk1/playground
+ :target: https://github.com/coatk1/playground
 
 .. image:: https://img.shields.io/github/languages/count/coatk1/playground
- :target: GitHub language count
+ :target: https://github.com/coatk1/playground
 
 .. image:: https://img.shields.io/github/languages/top/coatk1/playground
- :target: GitHub top language
-
-.. image:: https://img.shields.io/github/repo-size/coatk1/playground
- :target: GitHub repo size
-
-.. image:: https://img.shields.io/github/workflow/status/coatk1/playground/Check
- :target: GitHub Workflow Status
-
-.. image:: https://img.shields.io/conda/v/coatk1/oboyo
- :target: Conda
+ :target: https://github.com/coatk1/playground
 
 .. image:: https://img.shields.io/github/v/release/coatk1/playground?include_prereleases
  :target: GitHub release (latest by date including pre-releases)
-
-.. image:: https://img.shields.io/pypi/v/oboyo
- :target: PyPI
-
-.. image:: https://img.shields.io/pypi/pyversions/oboyo
- :target: PyPI - Python Version
-
-.. image:: https://img.shields.io/conda/pn/coatk1/oboyo
- :target: Conda
 
 A repo for testing and references.
 
