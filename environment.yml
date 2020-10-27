@@ -7,7 +7,7 @@ channels:
 
 dependencies:
   # Python Related
-  - python=3.7              # Python version 3.7
+  - python=3*               # Python version 3 and above
   - pyopenssl               # Handling certificates in Python
   - openssl                 # Handling certificates
   - openpyxl                # Excel files in Python
@@ -27,15 +27,18 @@ dependencies:
 
   # IDE
   - jupyter                 # IDE
+  - tornado<5
 
   # Data Science
   - pandas                  # Data
   - numpy<2.0               # Number calculations
   - scipy                   # Scientific calculations
+  - faker                   # Generates fake data
 
   # Databases
   - psycopg2                # Databases
   - sqlalchemy              # Databases
+  - ijson                   # Parsing json files
 
   # File Types
   - xlrd                    # To read excel files
@@ -51,6 +54,7 @@ dependencies:
   # Visualization
   - matplotlib              # Data visualization
   - seaborn                 # Data visualization
+  - bokeh                   # Data visualization/ interaction
 
   # Machine Learning
   - scikit-learn            # Machine Learning
@@ -74,6 +78,7 @@ dependencies:
   # Web Frameworks
   - flask                   # Lightweight framework
   - django                  # Heavy duty framework
+  - nodejs                  # Nodejs and npm
 
   # Makefile
   - make                    # For Makefiles
