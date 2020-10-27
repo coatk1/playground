@@ -1,3 +1,4 @@
+---
 # Anaconda local project state (specific to this user/machine)
 variables:
   IRIS: C:\Users\Corey\Documents\Projects\playground\notebooks\iris\iris.csv
