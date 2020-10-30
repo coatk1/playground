@@ -1,5 +1,5 @@
 ---
-name: pyBase
+name: dev
 
 channels:
   - defaults
@@ -76,9 +76,16 @@ dependencies:
   - pysimplegui             # Graphical User Interface
 
   # Web Frameworks
-  - flask                   # Lightweight framework
-  - django                  # Heavy duty framework
   - nodejs                  # Nodejs and npm
+  
+  # Flask Framework
+  - flask                   # Lightweight framework
+  - werkzeug >=0.16,<1.0    # The server Flask runs on
+  - flask-wtf               # integrates Flask and WTForms
+  - flask-restx>=0.1.1      # For Flask APIs. Replaced flask-restplus and flask-restful
+  
+  # Django Framework
+  - django                  # Heavy duty framework
 
   # Makefile
   - make                    # For Makefiles
