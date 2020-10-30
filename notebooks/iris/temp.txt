@@ -1,0 +1,115 @@
+Source: https://stackoverflow.com/questions/27934885/how-to-hide-code-from-cells-in-ipython-notebook-visualized-with-nbviewer
+from IPython.display import HTML
+
+HTML('''<script>
+code_show=true; 
+function code_toggle() {
+ if (code_show){
+ $('div.input').hide();
+ } else {
+ $('div.input').show();
+ }
+ code_show = !code_show
+} 
+$( document ).ready(code_toggle);
+</script>
+<form action="javascript:code_toggle()"><input type="submit" value="Click here to toggle on/off the raw code."></form>''')
+
+
+Source: https://medium.com/analytics-vidhya/python-data-projects-data-analysis-ui-reinforced-by-ipywidgets-d680493464b8
+
+from __future__ import print_function
+import sys
+import pandas as pd
+from io import StringIO
+import numpy as np
+import ipywidgets as widgets
+from IPython.display import display
+
+out = widgets.Output(layout={'border': '1px solid black'})
+up = widgets.FileUpload(accept="", multiple=False)
+
+eraser = widgets.SelectMultiple(
+    options=['tab','"'],
+    value=['tab'],
+    #rows=10,
+    description='Eraser: ',
+    disabled=False)
+
+rows = widgets.IntSlider(
+    value=0,
+    step=1,
+    description='# of lines:',
+    disabled=False,
+    continuous_update=False,
+    orientation='horizontal',
+    readout=True,
+    readout_format='d')
+
+button_preview = widgets.Button(
+    description='Preview',
+    disabled=False,
+    button_style='info',
+    tooltip='Click to Preview',
+    icon='search')
+accordion = widgets.Accordion(children=[up])
+accordion.set_title(0, 'File Selection')
+accordion_box = widgets.VBox([
+    accordion, 
+    widgets.HBox([button_preview]),
+    out
+])
+
+
+def content_parser():
+    if up.value == {}:
+        with out:
+            print('No CSV loaded')    
+    else:
+        typ, content = "", ""
+        up_value = up.value
+        for i in up_value.keys():
+            typ = up_value[i]["metadata"]["type"]
+        if typ == "text/csv":
+            content = up_value[i]["content"]
+            content_str = str(content, 'utf-8')
+    
+            if eraser.value != {}: 
+                for val in eraser.value:
+                    if val == "tab":
+                        content_str = content_str.replace("\t","")
+                    else:
+                        content_str = content_str.replace(val,"")
+            if content_str != "":
+                str_io = StringIO(content_str) 
+                return str_io
+
+
+def df_converter():
+    content = content_parser()
+    if content is not None:
+        df = pd.read_csv(content, sep=delim.value, index_col=False, skiprows=rows.value)    
+        return df
+    else:
+        return None
+
+
+def preview():
+    df = df_converter()
+    with out:
+        out.clear_output()
+        print('\n -----Now this is how your DF looks like:----- \n')
+        if df is not None:
+            print(df.head(10))
+        else:
+            print('Configuration is wrong/missing...')
+                
+def preview_clicked(b):
+    preview()
+
+button_preview.on_click(preview_clicked)
+
+
+accordion_box
+
+up.value
