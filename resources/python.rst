@@ -109,7 +109,10 @@ Web Apps
 
 Flask
 -----
+* https://flask.palletsprojects.com/en/1.1.x/
 * https://www.tutorialspoint.com/flask/index.htm
+* https://stackoverflow.com/questions/10434599/get-the-data-received-in-a-flask-request
+* https://realpython.com/the-model-view-controller-mvc-paradigm-summarized-with-legos/
 
 Django
 ------
