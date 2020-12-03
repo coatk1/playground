@@ -16,8 +16,8 @@ indent_size = 4
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-# Matches the exact files either package.json or .travis.yml
-[*.yml]
+# Matches multiple files with brace expansion notation
+[*.{yml, json, html, css, js}]
 indent_style = space
 indent_size = 2
 trim_trailing_whitespace = true
