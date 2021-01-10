@@ -14,6 +14,7 @@ Programming
 * https://www.codingame.com/start
 * https://www.codecademy.com/login
 * https://www.freecodecamp.org/learn/
+* https://sqlzoo.net/
 
 Data Science
 ------------
