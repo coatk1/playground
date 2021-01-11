@@ -26,31 +26,47 @@ Cyber
 * https://thisislegal.com/
 * https://techtalk.gfi.com/top-20-free-digital-forensic-investigation-tools-for-sysadmins/
 
-Web Dev
--------
+Web Development
+===============
 * http://html.net/
 * https://developer.mozilla.org/en-US/docs/Web/Events
+* https://www.w3schools.com/whatis/
+
+Tech Stacks
+-----------
+--Popular Stacks-- 
+* LAMP stack: JavaScript - Linux - Apache - MySQL - PHP 
+* LEMP stack: JavaScript - Linux - Nginx - MySQL - PHP 
+* MEAN stack: JavaScript - MongoDB - Express - AngularJS - Node.js 
+* Django stack: JavaScript - Python - Django - MySQL 
+* Ruby on Rails: JavaScript - Ruby - SQLite - PHP
 
 HTML
-++++
+----
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
 
 CSS
-+++
+---
 * https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 Bootstrap
-+++++++++
+---------
 * https://getbootstrap.com/
 
-Javascript
-++++++++++
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript#Reference
+Safety Net
+-----------
+* ESlint is linter for Javascript
+* CSSLint for CSS
+* Webhint to run website analysis
+* Prettier formats JS, HTML, CSS, MD, YAML files (unsure about this one)
+* Parcel and Webpack for bundlers/packaging
 
-jQuery
-++++++
-* https://code.jquery.com/jquery/
-* https://api.jquery.com/category/events/
+Transformation
+---------------
+* Babel is a js compiler to transform new js into an older version that most browsers can understand
+* PostCSS is the same for CSS
+* Sass/SCSS is an extension of CSS that can use variables, functions, etc.
+* Typescript is a super set of Javascript. Can convert to Javascript.
 
 Learning
 ========
