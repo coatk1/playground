@@ -35,6 +35,7 @@ Web Development
 Tech Stacks
 -----------
 --Popular Stacks-- 
+
 * LAMP stack: JavaScript - Linux - Apache - MySQL - PHP 
 * LEMP stack: JavaScript - Linux - Nginx - MySQL - PHP 
 * MEAN stack: JavaScript - MongoDB - Express - AngularJS - Node.js 
