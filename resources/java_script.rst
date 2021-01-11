@@ -10,7 +10,8 @@ Websites
 
 Package Manager
 ===============
-* 
+* NodeJS for JS package manager (https://nodejs.org/en/)
+* Node interpreter and npm command prompt
 
 Compilers
 =========
@@ -38,6 +39,7 @@ Resources
 * https://www.valentinog.com/blog/jsdoc/
 * https://github.com/spadgos/sublime-jsdocs
 * https://stackoverflow.com/questions/34205666/utilizing-docstrings
+* https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/
 
 Code Design
 ===========
@@ -50,3 +52,4 @@ JS Package
 
 Web Apps
 ========
+* Express for creating web server (https://expressjs.com/)
