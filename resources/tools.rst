@@ -12,6 +12,20 @@ Downloads
 * `Tableau <https://public.tableau.com/en-us/s/>`_
 * `7-Zip <https://www.7-zip.org/>`_
 
+Visual Studio Code
+==================
+* https://code.visualstudio.com/
+
+Extensions
+----------
+* EditorConfig for VS Code
+* GitHub
+* Excel Viewer
+* Python
+* Jupyter
+* Notepad++
+* HTML CSS Support
+* ESLint
 
 Command Line
 ============
