@@ -8,15 +8,18 @@ Websites
 ========
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript#Reference
 
+
 Package Manager
 ===============
 * Node interpreter and npm command prompt
 * NodeJS for JS package manager (https://nodejs.org/en/)
 * npm (https://www.npmjs.com/)
 
+
 Compilers
 =========
 * https://babeljs.io/
+
 
 Best Practices
 ==============
@@ -42,6 +45,7 @@ Resources
 * https://github.com/spadgos/sublime-jsdocs
 * https://stackoverflow.com/questions/34205666/utilizing-docstrings
 * https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/
+
 
 JS Package
 ==============

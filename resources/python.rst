@@ -18,6 +18,37 @@ Tricks
 
 Package Manager
 ===============
+
+Anaconda
+--------
+
+Cloud
++++++
+* https://anaconda.org/
+* https://docs.anaconda.com/
+* https://docs.anaconda.com/anaconda-cloud/commandreference/
+* https://docs.anaconda.com/anaconda-cloud/user-guide/tasks/work-with-accounts/
+
+Conda
++++++
+* https://docs.conda.io/projects/conda/en/latest/index.html
+* https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+Conda-Build
++++++++++++
+* https://docs.conda.io/projects/conda-build/en/latest/index.html
+* https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html
+
+Navigator
++++++++++
+* https://docs.anaconda.com/anaconda/navigator/tutorials/nav-app/
+
+Anaconda-Project
+++++++++++++++++
+* https://anaconda-project.readthedocs.io/en/latest/index.html
+
+PYPI
+----
 * https://pypi.org/
 
 
@@ -84,17 +115,45 @@ Python Package
 Data Science
 ============
 
+Libraries
+---------
+
 Statistics
-----------
+++++++++++
 * https://medium.com/@rrfd/standardize-or-normalize-examples-in-python-e3f174b65dfc
 
 Pandas
-------
+++++++
 * https://pandas.pydata.org/docs/index.html
 
 NumPy
------
++++++
 * https://numpydoc.readthedocs.io/en/latest/format.html
+
+Tutorials
+---------
+* https://www.datacamp.com/
+
+Intro
+-----
+* https://www.bouvet.no/bouvet-deler/roles-in-a-data-science-project
+* https://realpython.com/tutorials/data-science/
+* https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/
+* https://realpython.com/python-data-cleaning-numpy-pandas/
+* https://towardsdatascience.com/data-wrangling-with-pandas-5b0be151df4e
+
+Data Engineer
+-------------
+* https://towardsdatascience.com/data-engineering-101-for-dummies-like-me-cf6b9e89c2b4
+* https://www.analyticsvidhya.com/blog/2018/11/data-engineer-comprehensive-list-resources-get-started/
+* https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-i-4227c5c457d7
+
+Big Data
+--------
+* https://medium.com/@rrfd/your-first-map-reduce-using-hadoop-with-python-and-osx-ca3b6f3dfe78
+* https://www.datacamp.com/community/tutorials/apache-spark-python
+* https://www.guru99.com/apache-nifi-tutorial.html
+* https://www.confluent.io/blog/avro-kafka-data/
 
 
 Graphical User Interface

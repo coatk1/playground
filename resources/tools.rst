@@ -12,6 +12,7 @@ Downloads
 * `Tableau <https://public.tableau.com/en-us/s/>`_
 * `7-Zip <https://www.7-zip.org/>`_
 
+
 Visual Studio Code
 ==================
 * https://code.visualstudio.com/
@@ -26,6 +27,7 @@ Extensions
 * Notepad++
 * HTML CSS Support
 * ESLint
+
 
 Command Line
 ============
@@ -50,38 +52,12 @@ Makefile
 * https://www.gnu.org/software/make/manual/make.html
 * https://www.gnu.org/software/make/manual/html_node/index.html
 
+
 AWS
 ===
 * https://aws.amazon.com/cloud9/
 * https://aws.amazon.com/codestar/
 
-Anaconda
-========
-
-Cloud
------
-* https://anaconda.org/
-* https://docs.anaconda.com/
-* https://docs.anaconda.com/anaconda-cloud/commandreference/
-* https://docs.anaconda.com/anaconda-cloud/user-guide/tasks/work-with-accounts/
-
-Conda
------
-* https://docs.conda.io/projects/conda/en/latest/index.html
-* https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
-
-Conda-Build
------------
-* https://docs.conda.io/projects/conda-build/en/latest/index.html
-* https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html
-
-Navigator
----------
-* https://docs.anaconda.com/anaconda/navigator/tutorials/nav-app/
-
-Anaconda-Project
-----------------
-* https://anaconda-project.readthedocs.io/en/latest/index.html
 
 GitPod
 ======
@@ -126,6 +102,7 @@ SSH Keys
 * https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey
 * https://medium.com/@xiaolishen/use-multiple-ssh-keys-for-different-github-accounts-on-the-same-computer-7d7103ca8693
 
+
 DevOps
 ======
 * http://www.jamesbowman.me/post/cdlandscape/ContinuousDeliveryToolLandscape-fullsize.jpeg
@@ -141,6 +118,7 @@ Jenkins
 Terraform
 ---------
 * https://www.terraform.io/
+
 
 Databases
 =========
@@ -193,6 +171,7 @@ YAML (1.2 is JSON superset)
 ---------------------------
 * https://yaml.org/
 * https://www.tutorialspoint.com/yaml/index.htm
+
 
 Projects
 ========
