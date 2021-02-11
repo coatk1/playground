@@ -45,11 +45,19 @@ dependencies:
   - xlwt                    # To write to excel files
   - lxml                    # For parsing XML
   - simplekml               # Writing KML files
+  - pypdf2                  # PDF files
+  - python-docx             # Word Documents
+  - feedparser              # RSS Feeds
 
   # Geospatial
   - geojson                 # GeoJson
   - geohash2                # Geohashes
   - shapely                 # Geos
+
+  # Text Processing
+  - textwrap3               # Unwrap text
+  - nltk                    # Natural Language Processing
+  - pyspellchecker          # Check spelling in text
 
   # Visualization
   - matplotlib              # Data visualization
@@ -77,13 +85,13 @@ dependencies:
 
   # Web Frameworks
   - nodejs                  # Nodejs and npm
-  
+
   # Flask Framework
   - flask                   # Lightweight framework
   - werkzeug >=0.16,<1.0    # The server Flask runs on
   - flask-wtf               # integrates Flask and WTForms
   - flask-restx>=0.1.1      # For Flask APIs. Replaced flask-restplus and flask-restful
-  
+
   # Django Framework
   - django                  # Heavy duty framework
 
