@@ -50,7 +50,7 @@ dependencies:
   - simplekml               # Writing KML files
   - feedparser              # RSS Feeds
 
-  # Document Files
+  # **Document Files**
   - pandoc                  # Universal markup converter
   - pypdf2                  # PDF files
   - python-docx             # Word Documents
