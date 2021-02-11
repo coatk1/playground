@@ -48,9 +48,12 @@ dependencies:
   - xlwt                    # To write to excel files
   - lxml                    # For parsing XML
   - simplekml               # Writing KML files
+  - feedparser              # RSS Feeds
+
+  # Document Files
+  - pandoc                  # Universal markup converter
   - pypdf2                  # PDF files
   - python-docx             # Word Documents
-  - feedparser              # RSS Feeds
 
   # Geospatial
   - geojson                 # GeoJson
