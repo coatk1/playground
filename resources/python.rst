@@ -130,6 +130,11 @@ NumPy
 +++++
 * https://numpydoc.readthedocs.io/en/latest/format.html
 
+Finance
++++++++
+* https://numpy.org/doc/1.18/reference/routines.financial.html
+* https://numpy.org/numpy-financial/latest/
+
 Tutorials
 ---------
 * https://www.datacamp.com/
