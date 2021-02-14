@@ -34,7 +34,8 @@ dependencies:
 
   # Data Science
   - pandas                  # Data
-  - numpy<2.0               # Number calculations
+  - numpy<1.2               # Number calculations
+  - numpy-financial         # For financial equations
   - scipy                   # Scientific calculations
   - faker                   # Generates fake data
 
