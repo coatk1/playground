@@ -183,6 +183,12 @@ Jira
 
 Big Data
 ========
+* Data pipeline moves data from one place to another
+
+  * takes data from source and loads to it's destination (not necessarily a data warehouse)
+  * breaks data down into chunks
+  * may or may not be transformed
+
 * Spark runs onto of Hadoop to make Hadoop faster
 
   * MapReduce is a framework/ parallel programming to process data
@@ -193,12 +199,14 @@ Big Data
   * PySpark is Python wrapped around Spark
 
 * Data mining is to look for patterns and make predictions
-* Data-warehouse uses ETL
-* Data-lake uses ELT (all raw data)
+* Data warehouse uses ETL
+* Datalake uses ELT (all raw data)
 * Kafka is used for data streaming
+* ETL loads data to a database (OTLP) or data warehouse (OLAP)
 
 Sources
 -------
+* https://www.alooma.com/blog/what-is-a-data-pipeline
 * https://www.guru99.com/data-warehousing.html
 * https://www.guru99.com/etl-extract-load-process.html
 * https://www.tutorialspoint.com/hive/hive_quick_guide.htm
