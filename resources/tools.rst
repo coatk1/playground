@@ -179,3 +179,27 @@ Projects
 Jira
 ----
 * https://www.atlassian.com/software/jira/guides/getting-started/best-practices#jira-project-best-practices
+
+
+Big Data
+========
+* Spark runs onto of Hadoop to make Hadoop faster
+
+  * MapReduce is a framework/ parallel programming to process data
+  * HDFS stores data in Hadoop
+  * Sqoop import/export data to/from HDFS and RDBMS
+  * Pig scripting to run MapReduce
+  * Hive converts SQL scripts to run MapReduce
+  * PySpark is Python wrapped around Spark
+
+* Data mining is to look for patterns and make predictions
+* Data-warehouse uses ETL
+* Data-lake uses ELT (all raw data)
+* Kafka is used for data streaming
+
+Sources
+-------
+* https://www.guru99.com/data-warehousing.html
+* https://www.guru99.com/etl-extract-load-process.html
+* https://www.tutorialspoint.com/hive/hive_quick_guide.htm
+* https://www.guru99.com/what-is-big-data.html
