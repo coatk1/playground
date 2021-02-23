@@ -20,7 +20,10 @@ Practice
 
 Tools
 =====
+* https://docs.microsoft.com/en-us/windows/wsl/
+* https://www.kali.org/
 * https://tools.kali.org/tools-listing
+* https://tools.kali.org/exploitation-tools/metasploit-framework
 * https://www.wireshark.org/
 * https://hackertarget.com/vulnerability-scanner/
 * https://hackertarget.com/ip-tools/
