@@ -70,6 +70,7 @@ Best Practices
 * https://opensource.com/article/17/5/30-best-practices-software-development-and-testing
 * https://blog.k2datascience.com/software-engineering-fundamentals-best-practices-b5105d155c6d
 * https://litslink.com/blog/what-are-software-engineering-best-practices
+* https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html
 
 
 Computer Science
