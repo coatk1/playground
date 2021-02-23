@@ -1,4 +1,5 @@
 # Source: https://fastapi.tiangolo.com/tutorial/
+# Command Line: uvicorn fast_api:app --reload
 
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
