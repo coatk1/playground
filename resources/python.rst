@@ -115,6 +115,10 @@ Python Package
 Data Science
 ============
 
+Jupyter Notebook Web UI
+-----------------------
+* https://jupyter.org/
+
 Libraries
 ---------
 
