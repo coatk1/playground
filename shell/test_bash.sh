@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# type bash test_bash.sh to run
 # type bash to bring up power shell
 # bash
 
