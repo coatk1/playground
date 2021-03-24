@@ -13,15 +13,11 @@ insert_final_newline = true
 [*.py]
 indent_style = space
 indent_size = 4
-trim_trailing_whitespace = true
-insert_final_newline = true
 
 # Matches multiple files with brace expansion notation
-[*.{yml, json, html, css, js}]
+[*.{yml, json, html, css, js, cmd, bat, sh}]
 indent_style = space
 indent_size = 2
-trim_trailing_whitespace = true
-insert_final_newline = true
 
 [Makefile]
 indent_style = tab
