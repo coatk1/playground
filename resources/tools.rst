@@ -160,6 +160,7 @@ Markdown
 RST and MD
 ----------
 * https://www.zverovich.net/2016/06/16/rst-vs-markdown.html
+* https://sphinx-tutorial.readthedocs.io/cheatsheet/
 
 Conversion
 ----------
