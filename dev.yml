@@ -45,7 +45,7 @@ dependencies:
   - ijson                   # Parsing json files
 
   # File Types
-  - xlrd                    # To read excel files
+  - xlrd<2.0                # To read excel files
   - xlwt                    # To write to excel files
   - lxml                    # For parsing XML
   - simplekml               # Writing KML files
@@ -80,6 +80,8 @@ dependencies:
   # Code Linters
   - autopep8                # Formatting code
   - yapf                    # Formatting code
+  - black                   # Formatting code
+  - isort                   # Formatting code
   - flake8                  # Check formatting
   - pydocstyle              # Check formatting
   - mypy>=0.6               # Check python type checking. Updated version for reveal_locals() method
