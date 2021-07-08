@@ -37,6 +37,10 @@ Tech Stacks
 * Django stack: JavaScript - Python - Django - MySQL
 * Ruby on Rails: JavaScript - Ruby - SQLite - PHP
 
+HTTPS
+-----
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
 HTML
 ----
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
