@@ -31,7 +31,6 @@ Extensions
 
 Command Line
 ============
-* https://www.sslshopper.com/article-most-common-openssl-commands.html
 * https://www.lemoda.net/windows/windows2unix/windows2unix.html
 * https://ss64.com/
 
@@ -52,6 +51,11 @@ Makefile
 * https://www.gnu.org/software/make/manual/make.html
 * https://www.gnu.org/software/make/manual/html_node/index.html
 
+OpenSSL
+-------
+* https://www.openssl.org/docs/man1.1.1/man1/pkcs12.html
+* https://www.openssl.org/docs/man1.1.1/man1/rsa.html
+* https://www.sslshopper.com/article-most-common-openssl-commands.html
 
 AWS
 ===
