@@ -106,6 +106,10 @@ SSH Keys
 * https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey
 * https://medium.com/@xiaolishen/use-multiple-ssh-keys-for-different-github-accounts-on-the-same-computer-7d7103ca8693
 
+Resources
+---------
+* https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
+
 
 DevOps
 ======
