@@ -1,0 +1,29 @@
+[user]
+    name = Corey Atkins
+    email = coatk1@umbc.edu
+
+[alias]
+    a = add -A
+    cl = config --list --show-origin
+    cob = checkout -b
+    d = diff --color --ignore-all-space --ignore-blank-lines
+    ds = diff --color --ignore-all-space --ignore-blank-lines --staged
+    l = log --graph --oneline --decorate
+    last = log -1 HEAD
+    ss = status --short
+    unstage = reset HEAD --
+    
+    # Remote
+    rau = remote add upstream
+    rv = remote -v
+    
+    # Pull and merge upstreams
+    fu = fetch upstream
+    com = checkout master
+    mum = merge upstream/master
+
+[color]
+    ui = true
+
+[init]
+    defaultBranch = master
