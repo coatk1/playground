@@ -157,6 +157,7 @@ Data Engineer
 * https://towardsdatascience.com/data-engineering-101-for-dummies-like-me-cf6b9e89c2b4
 * https://www.analyticsvidhya.com/blog/2018/11/data-engineer-comprehensive-list-resources-get-started/
 * https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-i-4227c5c457d7
+* https://www.dataquest.io/blog/what-is-a-data-engineer/
 
 Big Data
 --------
