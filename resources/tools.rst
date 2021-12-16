@@ -220,3 +220,8 @@ Sources
 * https://www.guru99.com/etl-extract-load-process.html
 * https://www.tutorialspoint.com/hive/hive_quick_guide.htm
 * https://www.guru99.com/what-is-big-data.html
+
+AI/ML
+=====
+* https://colab.research.google.com/drive/15j84iloYieB295OdAzs1ra1fSx65d00x
+* https://colab.research.google.com/github/bycloudai/StyleCLIP-e4e-colab/blob/main/notebooks/e4e%2BStyleCLIPglobal.ipynb
