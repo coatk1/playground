@@ -105,6 +105,8 @@ SSH Keys
 * https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 * https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey
 * https://medium.com/@xiaolishen/use-multiple-ssh-keys-for-different-github-accounts-on-the-same-computer-7d7103ca8693
+* https://stackoverflow.com/questions/17846529/could-not-open-a-connection-to-your-authentication-agent
+* https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement
 
 Resources
 ---------
