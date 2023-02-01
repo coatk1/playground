@@ -1,5 +1,5 @@
 # Start SSH Agent
-#------------------------
+#----------------------------
 
 SSH_ENV="$HOME/.ssh/environment"
 
