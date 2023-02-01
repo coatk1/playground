@@ -65,6 +65,7 @@ dependencies:
   - textwrap3               # Unwrap text
   - nltk                    # Natural Language Processing
   - pyspellchecker          # Check spelling in text
+  - spacy=3.2.4             # NLP
 
   # Search Engine
   - elasticsearch
