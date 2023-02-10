@@ -8,7 +8,6 @@ VS Code Extensions
 * Python
 * Jupyter
 * VS Code Jupyter Notebook Previewer
-* Pylint
 * Flake8
 * Black Formatter
 * Python Snippets 3
