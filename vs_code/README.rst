@@ -22,4 +22,4 @@ VS Code Extensions
 * Remote - SSH: Editing
 * Remote - Containers
 * GitLens
-* Remote Repositories
+* GitHub Repositories
