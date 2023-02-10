@@ -21,3 +21,5 @@ VS Code Extensions
 * Remote - SSH
 * Remote - SSH: Editing
 * Remote - Containers
+* GitLens
+* Remote Repositories
