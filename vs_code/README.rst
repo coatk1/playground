@@ -1,38 +1,52 @@
 ==================
 VS Code Extensions
 ==================
+* https://marketplace.visualstudio.com/VSCode
 
+Files
+-----
 * vscode-icons
 * Indent Rainbow
+* Better Comments
 * Even Better Comments
+* Excel Viewer
+* Geo Data Viewer
+* Code Spell Checker
+* EditorConfig for VS Code
+* Visual Studio Keymap
+* Notepad ++ keymap
+
+Remote
+------
+* GitLens
+* GitHub Repositories
+* Remote - SSH
+* Remote - SSH: Editing Configuration Files
+* Docker
+
+Data Science
+------------
 * Python
 * Jupyter
 * VS Code Jupyter Notebook Previewer
 * Flake8
 * Black Formatter
-* Python Snippets 3
 * Python Indent
-* Excel Viewer
-* Geo Data Viewer
-* HTML SCSS Support
-* Weblint
-* ESlint
-* Remote - SSH
-* Remote - SSH: Editing
-* Remote - Containers
-* GitLens
-* GitHub Repositories
-* Babel JavaScript
+* autoDocstring - Python Docstring Generator
+* Pylance
+* Python Snippets 3
+
+Development
+-----------
+* Auto Rename Tag
+* Auto Close Tag
+* ESLint
 * C/C++
-* Docker
-* EditorConfig for VS Code
-* Formate: CSS/LESS/SCSS
+* Code Runner
 * HashiCorp Terraform
 * HTML CSS Support
+* Babel JavaScript
+* formate: CSS/LESS/SCSS formatter
 * json
-* Jupyter Keymap
-* Jupyter Notebook Renders
-* Notepad++ Keymap
-* Pylance
 * YAML
-* Debugger Firefox
+* Debugger for Firefox
