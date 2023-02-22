@@ -31,6 +31,7 @@ dependencies:
   # IDE
   - jupyter                 # IDE
   # - tornado<5               # Jupyter dependency.
+  # - jupyter_contrib_nbextensions
 
   # Data Science
   - pandas                  # Data
