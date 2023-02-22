@@ -1,5 +1,5 @@
 ---
-name: my-dev
+name: dev
 
 channels:
   - defaults
@@ -8,53 +8,54 @@ channels:
 dependencies:
   # Python Related
   - python=3*               # Python version 3 and above
-  - pyopenssl               # Handling certificates in Python
-  - openssl                 # Handling certificates
-  - openpyxl                # Excel files in Python
+  # - pyopenssl               # Handling certificates in Python. Jupyter dependency.
+  # - openssl                 # Handling certificates. Python dependency.
   - pytest-cov              # Test Python code coverage
   - typing                  # For python type checking. Use for python 3 and above
-  - bandit                  # Test vulnerabilities in Python code
-  - setuptools              # Setting up Python package
-  - wheel                   # Setting up Python package
-  - twine                   # Deploying Python package on PYPI
-  - line_profiler           # For code profiling runtime on cli
-  - memory_profiler         # For code profiling runtime in files
+  # - bandit                  # Test vulnerabilities in Python code
+  # - setuptools              # Setting up Python package. Python dependency.
+  # - wheel                   # Setting up Python package. Python dependency.
+  # - twine                   # Deploying Python package on PYPI
+  # - line_profiler           # For code profiling runtime on cli
+  # - memory_profiler         # For code profiling runtime in files
+  # - pytz                    # Jupyter dependency.
 
   # Web Scraping
-  - requests                # Accessing urls
+  # - requests                # Accessing urls. Jupyter dependency.
   - bs4                     # Beautifulsoap
 
   # GitHub Related
-  - git=2.14                # Used to access GitHub
+  - git                     # Used to access GitHub
   - hub                     # Used to access GitHub
 
   # IDE
   - jupyter                 # IDE
-  - tornado<5
+  # - tornado<5               # Jupyter dependency.
 
   # Data Science
   - pandas                  # Data
-  - numpy<1.20              # Number calculations
+  # - numpy<1.20              # Number calculations. Pandas dependency.
   - numpy-financial         # For financial equations
-  - scipy                   # Scientific calculations
-  - faker                   # Generates fake data
+  # - scipy                   # Scientific calculations. Scikit-learn dependency.
+  # - faker                   # Generates fake data
 
   # Databases
   - psycopg2                # Databases
-  - sqlalchemy              # Databases
+  # - sqlalchemy              # Databases
   - ijson                   # Parsing json files
 
   # File Types
-  - xlrd<2.0                # To read excel files
+  - openpyxl                # Excel files in Python
+  - xlrd                    # To read excel files
   - xlwt                    # To write to excel files
-  - lxml                    # For parsing XML
-  - simplekml               # Writing KML files
+  # - lxml                    # For parsing XML. Jupyter dependency.
+  # - simplekml               # Writing KML files
   - feedparser              # RSS Feeds
 
   # **Document Files**
   - pandoc                  # Universal markup converter
   - pypdf2                  # PDF files
-  - python-docx             # Word Documents
+  # - python-docx             # Word Documents
 
   # Geospatial
   - geojson                 # GeoJson
@@ -62,25 +63,25 @@ dependencies:
   - shapely                 # Geos
 
   # Text Processing
-  - textwrap3               # Unwrap text
+  # - textwrap3               # Unwrap text
   - nltk                    # Natural Language Processing
-  - pyspellchecker          # Check spelling in text
-  - spacy=3.2.4             # NLP
+  # - pyspellchecker          # Check spelling in text
+  - spacy                   # NLP
 
   # Search Engine
-  - elasticsearch
+  # - elasticsearch
 
   # Visualization
   - matplotlib              # Data visualization
   - seaborn                 # Data visualization
-  - bokeh                   # Data visualization/ interaction
+  # - bokeh                   # Data visualization/ interaction
 
   # Machine Learning
   - scikit-learn            # Machine Learning
 
   # Code Linters
-  - autopep8                # Formatting code
-  - yapf                    # Formatting code
+  # - autopep8                # Formatting code
+  # - yapf                    # Formatting code
   - black                   # Formatting code
   - isort                   # Formatting code
   - flake8                  # Check formatting
@@ -88,31 +89,31 @@ dependencies:
   - mypy>=0.6               # Check python type checking. Updated version for reveal_locals() method
 
   # Sphinx Docs
-  - sphinx                  # Building sphinx docs
-  - sphinx_rtd_theme        # Building sphinx docs
-  - nbsphinx                # Building sphinx docs
-  - sphinx-gallery          # Building sphinx docs
-
-  # Graphical User Interface
-  - pysimplegui             # Graphical User Interface
-
-  # Web Frameworks
-  - nodejs                  # Nodejs and npm
-
-  # Flask Framework
-  - flask                   # Lightweight framework
-  - werkzeug >=0.16,<1.0    # The server Flask runs on
-  - flask-wtf               # integrates Flask and WTForms
-  - flask-restx>=0.1.1      # For Flask APIs. Replaced flask-restplus and flask-restful
-
-  # Django Framework
-  - django                  # Heavy duty framework
-
-  # AWS
-  - boto3
+  # - sphinx                  # Building sphinx docs
+  # - sphinx_rtd_theme        # Building sphinx docs
+  # - nbsphinx                # Building sphinx docs
+  # - sphinx-gallery          # Building sphinx docs
 
   # Makefile
   - make                    # For Makefiles
+
+  # Graphical User Interface
+  # - pysimplegui             # Graphical User Interface
+
+  # Web Frameworks
+  # - nodejs                  # Nodejs and npm
+
+  # Flask Framework
+  # - flask                   # Lightweight framework
+  # - werkzeug >=0.16,<1.0    # The server Flask runs on
+  # - flask-wtf               # integrates Flask and WTForms
+  # - flask-restx>=0.1.1      # For Flask APIs. Replaced flask-restplus and flask-restful
+
+  # Django Framework
+  # - django                  # Heavy duty framework
+
+  # AWS
+  # - boto3
 
   # Anaconda Build
   # - anaconda-client         # Reaches out to Anaconda cloud
