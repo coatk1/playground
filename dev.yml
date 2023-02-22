@@ -89,7 +89,7 @@ dependencies:
   - isort                   # Formatting code
   - flake8                  # Check formatting
   - pydocstyle              # Check formatting
-  - mypy>=0.6               # Check python type checking. Updated version for reveal_locals() method
+  - mypy                    # Check python type checking. Updated version for reveal_locals() method. >=0.6
 
   # Sphinx Docs
   # - sphinx                  # Building sphinx docs
