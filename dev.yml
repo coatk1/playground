@@ -71,6 +71,7 @@ dependencies:
   - nltk>=3.5               # Natural Language Processing
   # - pyspellchecker          # Check spelling in text
   - spacy>=3.4              # NLP
+  - transformers
 
   # Search Engine
   # - elasticsearch
