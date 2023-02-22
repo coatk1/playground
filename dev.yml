@@ -49,8 +49,10 @@ dependencies:
   - openpyxl                # Excel files in Python
   - xlrd                    # To read excel files
   - xlwt                    # To write to excel files
+  # - xlsxwriter
   # - lxml                    # For parsing XML. Jupyter dependency.
   # - simplekml               # Writing KML files
+  - xmltidict               # Convert XML to Dictionary
   - feedparser              # RSS Feeds
 
   # **Document Files**
