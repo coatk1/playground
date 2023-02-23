@@ -53,7 +53,7 @@ dependencies:
   # - xlsxwriter
   # - lxml>=4.9               # For parsing XML. Jupyter dependency.
   # - simplekml               # Writing KML files
-  - xmltidict               # Convert XML to Dictionary
+  - xmltodict               # Convert XML to Dictionary
   - feedparser>=6.0         # RSS Feeds
 
   # **Document Files**
