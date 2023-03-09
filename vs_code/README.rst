@@ -48,5 +48,6 @@ Development
 * Babel JavaScript
 * formate: CSS/LESS/SCSS formatter
 * json
+* Prettify JSON
 * YAML
 * Debugger for Firefox
