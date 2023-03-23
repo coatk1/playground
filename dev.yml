@@ -83,6 +83,7 @@ dependencies:
 
   # Machine Learning
   - scikit-learn>=1.0       # Machine Learning
+  - sentencepiece
 
   # Code Linters
   # - autopep8                # Formatting code
