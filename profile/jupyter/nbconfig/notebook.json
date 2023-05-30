@@ -1,6 +1,0 @@
-{
-  "load_extensions":{
-    "jupyter-black": true,
-    "jupyter-black/jupyter-black": true
-  }
-}

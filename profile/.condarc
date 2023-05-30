@@ -1,4 +1,0 @@
-always_copy: false
-channels:
-  - defaults
-channel_priority: strict
