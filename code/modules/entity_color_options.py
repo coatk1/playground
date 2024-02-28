@@ -51,16 +51,13 @@ def get_entities(model) -> dict:
     # Entity Rulers
     text_entities_list = list(nlp.__dict__["_meta"]["labels"]["entity_ruler"])
 
-    # Regex
-    regex_list = []
-
     # Additional labels
     additional_labels = [
         "UNKNOWN",
     ]
 
     # Regex
-    combined_regex_list = regex_list + additional_labels
+    combined_regex_list = additional_labels
 
     all_ents = {
         "TEXT_ENTITIES": text_entities_list,
@@ -111,7 +108,7 @@ def get_entity_options(all_ents=None) -> dict:
 
     Examples
     --------
-    >>> import spacy
+    >>> import spacy, SPACY_MODEL
     >>> from entity_color_options import get_entities, get_entity_options
     >>> all_ents = get_entities(SPACY_MODEL)
     >>> nlp = SPACY_MODEL.load()
@@ -126,13 +123,9 @@ def get_entity_options(all_ents=None) -> dict:
     # This condition looks for current entities in the imported/ passed in model.
     if all_ents:
         # Combine new entity lists. This is done to preserve the original spaCy colors.
-        custom_entity_list = all_ents["TEXT_ENTITIES"] + all_ents["REGEX_ENTITIES"]  # Add new entity list here
+        custom_entity_list = all_ents["TEXT_ENTITIES"]  # Add new entity list here
 
-    # if TEXT_ENTITIES and REGEX_ENTITIES:
-
-    #     # Combine new entity lists. This is done to preserve the original spaCy colors.
-    #     custom_entity_list = TEXT_ENTITIES + REGEX_ENTITIES  # Add new entity list here
-
+    # Otherwise set to empty.
     else:
         custom_entity_list = []
 
@@ -144,10 +137,7 @@ def get_entity_options(all_ents=None) -> dict:
         colors[custom_entity_list[i]] = color[i]
 
     # Combine all entity lists.
-    # entity_list = SPACY_ENTITIES + custom_entity_list
     entity_list = list(DEFAULT_LABEL_COLORS.keys()) + custom_entity_list
-
-    # entity_list = list(DEFAULT_LABEL_COLORS.keys())
 
     options = {"ents": entity_list, "colors": colors}
 
